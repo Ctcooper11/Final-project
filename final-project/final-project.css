@@ -1,94 +1,375 @@
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(17, 1fr);
-    gap: 0px 0px;
-    grid-auto-flow: row;
-}
-  
-  .Header { grid-area: 1 / 1 / 5 / 9; }
-    .Header { 
-        grid-area: Header; 
-        background-color: lightblue;
-        width: 100vh;
-        width: 100%;
-        height: 40vh;
-        position: absolute;
- }
-    .Header{ grid-area: Header; }
-     .Logo-img{
-        height: 50vh;
-        float: center;
-        width: 27%;
-        position: relative;
-        z-index: 1;
-}
+@import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
+    body {
+      background-color: #FFB4D4;
+      margin: 0;
+      font-family: 'Recoleta', sans-serif; 
+      font-family: "Recoleta-Bold"; src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                  
+    }
+    
+a {
+      text-decoration: none;
+      color: #000;
+    }
 
-  .Name { grid-area: 2 / 4 / 3 / 6; }
-    .Name { 
-    grid-area: Name; 
-    background-color: blue;
+    @font-face {
+      font-family: 'Anti Design Endeavour - Demo';
+      src: url('fonts/Anti-Design-Endeavour---Demo.eot');
+      src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
+           url('fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
+           url('fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
+           url('fonts/Anti-Design-Endeavour---Demo.ttf')  format('truetype'),
+           url('fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
+  }
+    
+    h1 {
+      text-align: center;
+      margin-top: 5%;
+      font-weight: normal;
+      font-size: 50px;
+      text-decoration: none;
+      color: #000;
+    }
+    
+    h1:hover {
+      color: white;
+      text-shadow:0px 0px 20px #FF0D81;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      -webkit-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      }
+
+  .menu-button { 
+    grid-area: 1 / 1 / 1 / 16; 
+    position: absolute;
+    z-index: 10;
     float: center;
     text-align: center;
-    width: 30%;
-    height: 10vh;
-}
-  
-  .Slogan { grid-area: 3 / 4 / 4 / 6; }
-  .Slogan { 
-    /*grid-area: Slogan; */
-    background-color:palevioletred;
-    text-align: center;
-    width: 100%;
-    height: 30vh;
-    position: relative;
-    z-index: 1;
-}
-  
-  .Page1 { grid-area: 5 / 1 / 6 / 3;}
-  .Page1 { grid-area: Page1;
-    background-color:yellow;
-    text-align: center;
-    width: 40%;
-    float: left;
-}
-  
-  .Page2 { grid-area: 5 / 3 / 6 / 6; }
-  .Page2 { grid-area: Page2;
-    background-color:lightskyblue;
-    text-align: center;
-    width: 40%;
-    float: center;
-}
-  
-  .Page3 { grid-area: 5 / 6 / 6 / 9; }
-  .Page3 { grid-area: Page3;
-    background-color:lightcoral;
-    text-align: center;
-    width: 40%;
-    float: right;
-}
-  
-  .Aesthetic-picture-right { grid-area: 6 / 5 / 16 / 9; }
-  .Phone-img { grid-area: Aesthetic-picture-right;
-    height: 100vh;
-    float: right;
- }
-  
-  .Coffee-picture1-left { grid-area: 6 / 1 / 18 / 5; }
-  .Coffeeleft-img { grid-area: Coffee-picture1-left;
-    height: 100vh;
-    float: left;
-}
-  
-  .Beans-pattern { grid-area: 16 / 5 / 18 / 9; }
+    color: black
+    }
 
+.shop-button { display: grid;
+  float: left;
+  margin-left: 250px;
+  text-decoration: none;
+  grid-area: 1 / 2 / 1 / 16; 
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  color: black;
+  font-family: 'Anti-Design-Endeavour-Demo.ttf';
+  src: url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('woff'),
+    url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('truetype');
+    font-display: swap;
+} 
+
+  p {
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: normal;
+    font-size: 50px;
+    text-decoration-line: none;
+    text-align: center;
+    font-family: 'Anti-Design-Endeavour-Demo.ttf';
+    src: url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('woff'),
+    url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('truetype');
+    font-display: swap;
+  }
  
-  @media(max-width:100vh) {
+  p:hover {
+    color: white;
+    text-shadow:0px 0px 20px #FF0D81;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+  }
+
+  a {
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: normal;
+    font-size: 40px;
+    text-decoration-line: none;
+    text-align: center;
+  }
+  
+  a:hover {
+    color: white;
+    text-shadow:0px 0px 20px #FF0D81;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+  }
+  
+ .headerlogo:hover {
+    color: white;
+    text-shadow:0px 0px 20px #FF0D81;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+  }
+
+.header {  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #8AD5FF;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "headermenu . headerlogo headerlogo headerlocation headershop";
+}
+
+.headerlogo { 
+  grid-area: headerlogo; 
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0;
+}
+
+.topnav a:hover {
+  background-color: #FFB4D4;
+  color: black;
+      text-shadow:0px 0px 20px #FF0D81;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      -webkit-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.topnav .icon {
+ display: inline;
+ color: #000; 
+}
+
+i {
+  color: #000;
+} 
+
+
+
+/*Main */
+
+.main {  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  text-align: center;
+}
+
+.main-left { 
+  grid-area: 1 / 1 / 4 / 2; 
+  background-image: url(img/1coffee4web.png);
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-top { 
+  grid-area: 1 / 1 / 2 / 2; 
+
+}
+
+.main-shop { grid-area: 3 / 1 / 4 / 2; 
+display: center;
+float: center;
+text-align: center;
+font-size: x-large;
+}
+
+p.main-shop{
+  font-size: 80px;
+}
+
+.menu-button { grid-area: 3 / 2 / 4 / 2; 
+display: center;
+float: center;
+text-align: center;
+font-size: x-large;
+}
+
+p.menu-button{
+  font-size: 50vh;
+}
+
+.main-right { 
+  grid-area: 1 / 2 / 4 / 3; 
+  background-image: url(img/red-phone-notext.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.main-right-text { grid-area: 2 / 2 / 3 / 3; }
+
+.foot1{
+margin: 0;
+}
+
+.foot2 {
+  background-image: url(img/checkbackground-img.PNG);
+  text-align: center; 
+}
+
+
+.foot2-gif{
+  width: 200vh;
+ 
+}
+
+.header0{
+  grid-area: header;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  text-align: left;
+  padding: 1rem 1.5rem;
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+  
+}
+
+a {
+  text-decoration: none;
+}
+.hamburger {
+
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: black;
+}
+
+.nav-link:hover{
+  color: #FF0D81;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: black;
+}
+
+ /* SHOP PAGE */
+
+  
+  @media(max-width:1000px) {
     .container {  display: grid;
+        grid-template-columns: 1fr 1fr repeat(20, 1fr);
+        grid-template-rows: repeat(16, 1fr);
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-        height: 100vh;
+          "menu-button"
+          "header"
+          "logo"
+          "picture-left"
+          "picture-right"
+          "contact"
+          "footer";
+        height: 200vh;
+        width: 100vh;
         overflow: hidden;
+        grid-gap: 0px;
     }  
-    }
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 100vh) {
+  .foot2.responsive {position: relative;}
+  .foot2-gif.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .foot2-gif.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+}  

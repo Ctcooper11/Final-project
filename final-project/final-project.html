@@ -4,23 +4,112 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Stop Coffee Shop</title>
+  <link rel="shortcut icon" href="favicon.ico" type="img/favicon.PNG">  
   <link rel="stylesheet" href="final-project.css">
-  <title>Charlotte's Coffee</title>
-
-  <div class="container">
-    <div class="Header">
-        <img class="Logo-img" src="img/logo-img.PNG" alt="logo">
+</head>
+<body>
+<!--nav bar-->
+  
+    <div class="topnav" id="myTopnav">
+      <a href="final-project.html" class="active">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="location.html">Locations</a>
+      <a href="shop.html">Shop</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <div class="Name"><h2>First Stop</h2></div>
-    <div class="Slogan"><h2>Wake up with us!</h2></div>
-    <div class="Page1"><h2>Page1</h2></div>
-    <div class="Page2"><h2>Page2</h2></div>
-    <div class="Page3"><h2>Page3</h2></div>
-    <div class="Aesthetic-picture-right">
-        <img class="Phone-img" src="img/red-phone.jpg" alt="text">
+    
+  <!--Header-->
+  <div class="header">
+    <div class="headermenu"> 
+      <div class="menu-button">
     </div>
-    <div class="Coffee-picture1-left">
-        <img class="Coffeeleft-img" src="img/1coffee.jpg" alt="text">
-    </div>
-    <div class="Beans-pattern"></div>
   </div>
+    <div class="headerlogo">
+      <div class="logo">
+        <img class="Logo-img" src="img/logo-img4web.png" alt="logo" style="height: 200px;">  
+        </div>
+       </nav>
+  </div>
+    <div class="headerlocation">
+      <div class="menu-button">
+       </div>
+    </div>
+    <div class="headershop">
+       </div>
+    </div>
+  </div>
+
+<!--Main-->
+<div class="main">
+  <div class="main-left"></div>
+  <div class="main-top"><h1>Take Us Wherever You Go!</h1>
+    <div class="main-top"> 
+    <h1><a href="location.html"></a></h1></div>
+    
+  </div>
+  <div class="main-shop">
+    <p><a href="shop.html">SHOP</a></p></div>
+    <div class="menu-button"> 
+  </div>
+  
+  <div class="main-right"></div>
+  <div class="main-right-text"><h1>FIRST STOP: <br> COFFEE</h1>
+  </div>
+
+</div>
+
+<!--foot1-->
+<div class="foot1">
+<h1 class="contact">FOLLOW US ONLINE <br> @FIRSTSTOPCOFFEESHOP</h1>
+</div>
+
+<!--foot2-->
+<div class="foot2">
+  <img class="foot2-gif" alt="">
+<img src="img/cheers4web.gif" alt="">
+
+</div>
+ 
+<script>
+function myFunction()
+{
+var x=document.getElementById("demo").value;
+if(x==""||isNaN(x))
+{
+alert("Not Numeric");
+}
+}
+  //  function randomlinks() {
+   //   var myrandom = Math.round(Math.random() * 5);
+   //   var links = new Array();
+   //   links[0] = "http://127.0.0.1:5500/shop.html";
+     // window.location = links[myrandom];
+  //  }
+   // function randomlinks() {
+    //  var myrandom = Math.round(Math.random() * 5);
+   //   var links = new Array();
+    //  links[0] = "http://127.0.0.1:5500/menu.html";
+    //  window.location = links[myrandom];
+   // }
+
+   // function randomlinks() {
+   //   var myrandom = Math.round(Math.random() * 5);
+   //   var links = new Array();
+   //   links[0] = "http://127.0.0.1:5500/location.html";
+    //  window.location = links[myrandom];
+   // }
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

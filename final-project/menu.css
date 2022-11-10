@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: normal;
+    font-size: 50px;
+    color: black;
+  }
+  
+  h1:hover {
+    color: #459DD1;
+    text-shadow:0px 0px 20px #8AD5FF;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+  }
+
+  .container {  display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    overflow: hidden;
+    font-family: 'Recoleta', sans-serif; 
+    font-family: "Recoleta-Bold"; src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                           
+  }
+  
+  .header { grid-area: 1 / 1 / 4 / 15; 
+background-color: #EFD4B7;}
+  
+  .name { grid-area: 2 / 2 / 4 / 6; }
+  
+  .cup { grid-area: 1 / 7 / 4 / 12; }
+  
+  .coffee1 { grid-area: 5 / 2 / 9 / 6; }
+  
+  .coffee2 { grid-area: 5 / 6 / 9 / 10; }
+  
+  .coffee3 { grid-area: 5 / 10 / 9 / 13; }
+  
+  .background { grid-area: 4 / 1 / 9 / 14; }
+  
+  .footer { grid-area: 9 / 1 / 13 / 14; }
+  
+  @media(max-width:1000px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr repeat(16, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "header"
+          "name"
+          "cup"
+          "coffee1"
+          "coffee2"
+          "coffee3"
+          "background"
+          "footer";
+        height: 100vh;
+        width: 100vh;
+        overflow: hidden;
+        grid-gap: 0px;
+    }  
+    }
