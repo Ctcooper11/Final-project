@@ -6,22 +6,31 @@
       font-family: "Recoleta-Bold"; src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                  
     }
     
-a {
+    
+    .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      margin: 6px;
+      transition: 0.2s;
+    }
+
+    .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+    
+    .change .bar2 {opacity: 0;}
+    
+    .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+
+    a {
       text-decoration: none;
       color: #000;
     }
-
-    @font-face {
-      font-family: 'Anti Design Endeavour - Demo';
-      src: url('fonts/Anti-Design-Endeavour---Demo.eot');
-      src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
-           url('fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
-           url('fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
-           url('fonts/Anti-Design-Endeavour---Demo.ttf')  format('truetype'),
-           url('fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
-  }
     
-    h1 {
+  h1 {
       text-align: center;
       margin-top: 5%;
       font-weight: normal;
@@ -30,7 +39,7 @@ a {
       color: #000;
     }
     
-    h1:hover {
+  h1:hover {
       color: white;
       text-shadow:0px 0px 20px #FF0D81;
       -moz-transition: all 0.2s ease-in;
@@ -159,7 +168,9 @@ a {
 
 .topnav a.active {
   color: black;
+  margin-left: 50px;
 }
+
 
 .topnav .icon {
  display: inline;
@@ -169,8 +180,6 @@ a {
 i {
   color: #000;
 } 
-
-
 
 /*Main */
 

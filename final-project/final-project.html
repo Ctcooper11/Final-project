@@ -5,12 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>First Stop Coffee Shop</title>
-  <link rel="shortcut icon" href="favicon.ico" type="img/favicon.PNG">  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <link rel="icon" type="image/png" href="/favicon16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon32.png" sizes="32x32">
   <link rel="stylesheet" href="final-project.css">
 </head>
 <body>
 <!--nav bar-->
-  
+
     <div class="topnav" id="myTopnav">
       <a href="final-project.html" class="active">Home</a>
       <a href="menu.html">Menu</a>
@@ -20,6 +22,11 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
+    <div class="hamburger" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+     
     
   <!--Header-->
   <div class="header">
@@ -28,7 +35,6 @@
     </div>
   </div>
     <div class="headerlogo">
-      <div class="logo">
         <img class="Logo-img" src="img/logo-img4web.png" alt="logo" style="height: 200px;">  
         </div>
        </nav>
@@ -58,8 +64,8 @@
   <div class="main-right"></div>
   <div class="main-right-text"><h1>FIRST STOP: <br> COFFEE</h1>
   </div>
-
 </div>
+
 
 <!--foot1-->
 <div class="foot1">
@@ -82,32 +88,9 @@ if(x==""||isNaN(x))
 alert("Not Numeric");
 }
 }
-  //  function randomlinks() {
-   //   var myrandom = Math.round(Math.random() * 5);
-   //   var links = new Array();
-   //   links[0] = "http://127.0.0.1:5500/shop.html";
-     // window.location = links[myrandom];
-  //  }
-   // function randomlinks() {
-    //  var myrandom = Math.round(Math.random() * 5);
-   //   var links = new Array();
-    //  links[0] = "http://127.0.0.1:5500/menu.html";
-    //  window.location = links[myrandom];
-   // }
-
-   // function randomlinks() {
-   //   var myrandom = Math.round(Math.random() * 5);
-   //   var links = new Array();
-   //   links[0] = "http://127.0.0.1:5500/location.html";
-    //  window.location = links[myrandom];
-   // }
-    function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
+/*hamurger*/
+function myFunction(x) {
+  x.classList.toggle("change");
 }
 </script>
 
