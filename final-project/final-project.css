@@ -95,7 +95,6 @@
     font-size: 50px;
     text-decoration-line: none;
     text-align: center;
-    
     font-display: swap;
   }
 
@@ -105,7 +104,6 @@
     -moz-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    
   }
 
   a {
@@ -240,7 +238,7 @@ margin: 0;
 
 
 .foot2-gif{
-  width: 200vh;
+  width: 100vh;
 }
 
 * {
@@ -250,8 +248,14 @@ margin: 0;
 }
 
 html {
-    font-size: 80%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-family: 'Recoleta,sans-serif';
+    src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
+        url('/fonts/Recoleta-Bold.woff2') format('woff2'),
+         url('/fonts/Recoleta-Bold.woff') format('woff'),
+         url('/fonts/Recoleta-Bold.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
 }
 
 li {
