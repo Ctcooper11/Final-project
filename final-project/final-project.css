@@ -207,7 +207,7 @@ font-size: 100px;
     
 
 .main-left { 
-  grid-area: 1 / 1 / 5 / 2; 
+  grid-area: 1 / 1 / 6 / 2; 
 background-image:url(img/1coffee4web.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -237,7 +237,7 @@ p.main-shop{
 
 
 .main-right { 
-  grid-area: 1 / 2 / 5 / 3; 
+  grid-area: 1 / 2 / 6 / 3; 
   background-image: url(img/red-phone-notext.png);
   background-repeat: no-repeat;
   background-position: center center;
