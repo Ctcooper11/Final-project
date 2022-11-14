@@ -200,13 +200,14 @@ i {
 
 .main-left { 
   grid-area: 1 / 1 / 4 / 2; 
-  background-image: url(img/1coffee4web.png);
-  
+background-image:url(img/1coffee4web.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
 }
+
+
 
 h1.main-left{
   float: top;
@@ -354,15 +355,17 @@ margin-right: 300px;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-          "menu-button"
+          "header0"
           "header"
-          "logo"
-          "picture-left"
-          "picture-right"
-          "contact"
-          "footer";
+          "main"
+          "main-left"
+          "main-right"
+          "footer"
+          "footer2";
         overflow: hidden;
         grid-gap: 0px;
+    .img-left. resposive{position: relative;
+    }
     }  
 
 @media screen and (max-width: 600px height:100vh) {
