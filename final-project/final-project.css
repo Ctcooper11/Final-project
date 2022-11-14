@@ -1,3 +1,4 @@
+
 @import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
     body {
       background-color: #FFB4D4;
@@ -5,6 +6,17 @@
       font-family: 'Recoleta', sans-serif; 
       font-family: "Recoleta-Bold"; src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                  
     }
+
+
+    @font-face {
+      font-family: 'Recoleta-SemiBold';
+      src:
+           url('@{plChildRoot}/font/Recoleta-SemiBold.woff') format('woff'),
+           url('@{plChildRoot}/font/Recoleta-SemiBold.ttf') format('truetype'),  
+      font-weight: normal;
+      font-style: normal;
+  }
+
     
     .bar1, .bar2, .bar3 {
       width: 35px;
@@ -76,6 +88,13 @@
     text-decoration-line: none;
     text-align: center;
     
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Anti-Design-Endeavour-Demo.ttf';
+    src: url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('woff'),
+    url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('truetype');
     font-display: swap;
   }
  
@@ -320,8 +339,6 @@ margin-right: 300px;
 
   @media(max-width:600px) {
     .container {  display: grid;
-        grid-template-columns: 1fr 1fr repeat(20, 1fr);
-        grid-template-rows: repeat(16, 1fr);
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
@@ -336,10 +353,8 @@ margin-right: 300px;
         grid-gap: 0px;
     }  
 
-
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: fi;}
+@media screen and (max-width: 600px height:100vh) {
+  .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -370,13 +385,12 @@ margin-right: 300px;
   .nav-menu {
       position: fixed;
       left: -100%;
- 
       flex-direction: column;
       background-color: #8AD5FF;
-      width: 100%;
+    
       text-align: center;
       transition: 0.3s;
-  
+  overflow: hidden;
   }
 
   .nav-menu.active {
