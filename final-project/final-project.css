@@ -1,4 +1,5 @@
 
+    @import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
     body {
       background-color: #FFB4D4;
       margin: 0;
@@ -193,6 +194,18 @@ h1.main {  display: grid;
 font-size: 100px;
 }
 
+@font-face{
+      font-family: 'Recoleta';
+      src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
+          url('/fonts/Recoleta-Bold.woff2') format('woff2'),
+           url('/fonts/Recoleta-Bold.woff') format('woff'),
+           url('/fonts/Recoleta-Bold.ttf') format('truetype'),
+      font-weight: normal;
+      font-style: normal;
+      }
+
+    
+
 .main-left { 
   grid-area: 1 / 1 / 5 / 2; 
 background-image:url(img/1coffee4web.png);
@@ -222,22 +235,24 @@ p.main-shop{
   font-size: 100px;
 }
 
+
 .main-right { 
   grid-area: 1 / 2 / 5 / 3; 
   background-image: url(img/red-phone-notext.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  
 }
 
 .main-right-text { grid-area: 3 / 2 / 3 / 3; 
-  font-family: 'Recoleta,sans-serif';
-  src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
-      url('/fonts/Recoleta-Bold.woff2') format('woff2'),
-       url('/fonts/Recoleta-Bold.woff') format('woff'),
-       url('/fonts/Recoleta-Bold.ttf') format('truetype'),
+  font-family: 'Recoleta-Bold';
+  src: url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff2') format('woff2'),
+  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
+  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 .foot1{
@@ -270,15 +285,17 @@ html {
     src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
         url('/fonts/Recoleta-Bold.woff2') format('woff2'),
          url('/fonts/Recoleta-Bold.woff') format('woff'),
-         url('/fonts/Recoleta-Bold.ttf') format('truetype'),
+         url('/fonts/Recoleta-Bold.ttf') format('truetype'),   
     font-weight: normal;
     font-style: normal;
 }
 
+
 li {
     list-style: none;
-    font-size: 60px;
+    font-size: 60px;    
 }
+
 
 a {
     text-decoration: none;
@@ -318,21 +335,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-font-size: 60px;
-font-family: 'Recoleta,sans-serif';
-src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
-    url('/fonts/Recoleta-Bold.woff2') format('woff2'),
-     url('/fonts/Recoleta-Bold.woff') format('woff'),
-     url('/fonts/Recoleta-Bold.ttf') format('truetype'),
-font-weight: normal;
-font-style: normal;
+font-size: 50px;
 }
 
 .nav-link{
-  font-size: 1.6rem;
+  font-size: 30px;
   font-weight: 400;
   color:black;
   text-align: center;
+  
 }
 
 .nav-link:hover{
@@ -354,6 +365,13 @@ font-style: normal;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  font-family: 'Recoleta-Bold';
+  src: url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff2') format('woff2'),
+  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
+  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .nav-item {
