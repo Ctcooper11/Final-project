@@ -1,4 +1,5 @@
 
+
 @import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
     body {
       background-color: #FFB4D4;
@@ -8,12 +9,12 @@
       height: 100vh;
     }
 
-
     @font-face{
-      font-family: 'Recoleta-SemiBold';
-      src: url('/fonts/Recoleta-SemiBold.woff2') format('woff2'),
-           url('/fonts/Recoleta-SemiBold.woff2') format('woff'),
-           url('/fonts/Recoleta-SemiBold.ttf') format('truetype'),
+      font-family: 'Recoleta';
+      src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
+          url('/fonts/Recoleta-Bold.woff2') format('woff2'),
+           url('/fonts/Recoleta-Bold.woff') format('woff'),
+           url('/fonts/Recoleta-Bold.ttf') format('truetype'),
       font-weight: normal;
       font-style: normal;
       }
@@ -60,7 +61,7 @@
       }
 
   .menu-button { 
-    grid-area: 1 / 1 / 1 / 15; 
+
     position: absolute;
     z-index: 10;
     float: center;
@@ -206,8 +207,6 @@ background-image:url(img/1coffee4web.png);
   background-size: cover;
   text-align: center;
 }
-
-
 
 h1.main-left{
   float: top;
