@@ -1,5 +1,4 @@
 
-
 @import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
     body {
       background-color: #FFB4D4;
@@ -41,14 +40,17 @@
     a {
       text-decoration: none;
       color: #000;
+      font-size: 100px;
     }
     
   h1 {
+    margin-top: 50px;
       text-align: center;
       font-weight: normal;
-      font-size: 50px;
+      font-size: 70px;
       text-decoration: none;
       color: #000;
+      position: relative;
     }
     
   h1:hover {
@@ -79,12 +81,13 @@
   color: black;
     font-display: swap;
 } 
-.loco-button { display: main;
+h1.loco-button { display: main;
   text-decoration: none;
   position: absolute;
   z-index: 10;
   text-align: center;
   color: black;
+  font-size: 100px;
     font-display: swap;
 } 
   p {
@@ -92,7 +95,7 @@
     text-align: center;
     margin-top: 5%;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 80px;
     text-decoration-line: none;
     text-align: center;
     font-display: swap;
@@ -183,14 +186,17 @@ i {
 
 .main {  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   gap: 0px 0px;
   grid-auto-flow: row;
   text-align: center;
 }
+h1.main {  display: grid;
+font-size: 100px;
+}
 
 .main-left { 
-  grid-area: 1 / 1 / 4 / 2; 
+  grid-area: 1 / 1 / 5 / 2; 
 background-image:url(img/1coffee4web.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -200,32 +206,33 @@ background-image:url(img/1coffee4web.png);
 
 h1.main-left{
   float: top;
+  font-size: 100px;
   grid-area: 1 / 1 / 4 / 2;
 }
-.main-top { 
+h.main-top { 
   grid-area: 1 / 1 / 2 / 2; 
-
+font-size: 100px;
 }
 
-.main-shop { grid-area: 3 / 1 / 4 / 2; 
+.main-shop { grid-area: 4 / 1 / 5 / 2; 
 display: center;
 float: center;
 text-align: center;
 }
 
 p.main-shop{
-  font-size: 80px;
+  font-size: 100px;
 }
 
 .main-right { 
-  grid-area: 1 / 2 / 4 / 3; 
+  grid-area: 1 / 2 / 5 / 3; 
   background-image: url(img/red-phone-notext.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-.main-right-text { grid-area: 2 / 2 / 3 / 3; }
+.main-right-text { grid-area: 3 / 2 / 3 / 3; }
 
 .foot1{
 margin: 0;
@@ -248,7 +255,7 @@ margin: 0;
 }
 
 html {
-    font-size: 100%;
+    font-size: 70%;
     font-family: 'Recoleta,sans-serif';
     src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
         url('/fonts/Recoleta-Bold.woff2') format('woff2'),
@@ -265,6 +272,8 @@ li {
 
 a {
     text-decoration: none;
+    font-size: 70%;
+   
 }
 
 .navbar {
