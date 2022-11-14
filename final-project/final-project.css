@@ -10,11 +10,6 @@
 
     @font-face {
       font-family: 'Recoleta-SemiBold';
-      src: url('@{plChildRoot}/fonts/gooddog-webfont.eot?#iefix') format('embedded-opentype'),
-           url('@{plChildRoot}/font/Recoleta-SemiBold.woff') format('woff'),
-           url('@{plChildRoot}/font/Recoleta-SemiBold.ttf') format('truetype'),   
-      font-weight: normal;
-      font-style: normal;
       src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); 
       src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), 
       url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), 
