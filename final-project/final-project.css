@@ -1,22 +1,20 @@
 
-@import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
     body {
       background-color: #FFB4D4;
       margin: 0;
-      font-family: 'Recoleta', sans-serif; 
-      font-family: "Recoleta-Bold"; src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                  
+      font-family: 'Anti Design Endeavour - Demo';
       height: 100vh;
     }
 
-    @font-face{
-      font-family: 'Recoleta';
-      src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
-          url('/fonts/Recoleta-Bold.woff2') format('woff2'),
-           url('/fonts/Recoleta-Bold.woff') format('woff'),
-           url('/fonts/Recoleta-Bold.ttf') format('truetype'),
-      font-weight: normal;
-      font-style: normal;
-      }
+    @font-face {
+      font-family: 'Anti Design Endeavour - Demo';
+      src: url('fonts/Anti-Design-Endeavour---Demo.eot');
+      src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
+           url('fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
+           url('fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
+           url('fonts/Anti-Design-Endeavour---Demo.ttf')  format('truetype'),
+           url('fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
+  }
 
     
     .bar1, .bar2, .bar3 {
@@ -232,15 +230,27 @@ p.main-shop{
   background-size: cover;
 }
 
-.main-right-text { grid-area: 3 / 2 / 3 / 3; }
+.main-right-text { grid-area: 3 / 2 / 3 / 3; 
+  font-family: 'Recoleta,sans-serif';
+  src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
+      url('/fonts/Recoleta-Bold.woff2') format('woff2'),
+       url('/fonts/Recoleta-Bold.woff') format('woff'),
+       url('/fonts/Recoleta-Bold.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
 
 .foot1{
 margin: 0;
 }
 
+h1.contact{
+  float: top;
+}
 .foot2 {
   background-image: url(img/checkbackground-img.PNG);
   text-align: center; 
+margin: 0%;
 }
 
 
@@ -309,6 +319,13 @@ a {
   justify-content: space-between;
   align-items: center;
 font-size: 60px;
+font-family: 'Recoleta,sans-serif';
+src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
+    url('/fonts/Recoleta-Bold.woff2') format('woff2'),
+     url('/fonts/Recoleta-Bold.woff') format('woff'),
+     url('/fonts/Recoleta-Bold.ttf') format('truetype'),
+font-weight: normal;
+font-style: normal;
 }
 
 .nav-link{
