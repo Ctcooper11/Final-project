@@ -185,7 +185,7 @@ i {
 
 .main {  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 0px 0px;
   grid-auto-flow: row;
   text-align: center;
@@ -194,20 +194,12 @@ h1.main {  display: grid;
 font-size: 100px;
 }
 
-@font-face{
-      font-family: 'Recoleta';
-      src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
-          url('/fonts/Recoleta-Bold.woff2') format('woff2'),
-           url('/fonts/Recoleta-Bold.woff') format('woff'),
-           url('/fonts/Recoleta-Bold.ttf') format('truetype'),
-      font-weight: normal;
-      font-style: normal;
-      }
+
 
     
 
 .main-left { 
-  grid-area: 1 / 1 / 6 / 2; 
+  grid-area: 1 / 1 / 5 / 2; 
 background-image:url(img/1coffee4web.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -225,7 +217,7 @@ h.main-top {
 font-size: 100px;
 }
 
-.main-shop { grid-area: 4 / 1 / 5 / 2; 
+.main-shop { grid-area: 4 / 1 / 4 / 2; 
 display: center;
 float: center;
 text-align: center;
@@ -237,7 +229,7 @@ p.main-shop{
 
 
 .main-right { 
-  grid-area: 1 / 2 / 6 / 3; 
+  grid-area: 1 / 2 / 5 / 3; 
   background-image: url(img/red-phone-notext.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -246,13 +238,7 @@ p.main-shop{
 }
 
 .main-right-text { grid-area: 3 / 2 / 3 / 3; 
-  font-family: 'Recoleta-Bold';
-  src: url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff2') format('woff2'),
-  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
-  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+
 }
 
 .foot1{
@@ -376,7 +362,7 @@ font-size: 50px;
 
 .nav-item {
   margin-left: 7rem;
-  text-align: center;
+  text-align: right;
 }
 
 .homeicon-img {
