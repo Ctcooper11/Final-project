@@ -10,11 +10,11 @@
 
     @font-face {
       font-family: 'Recoleta-SemiBold';
-      src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); 
-      src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), 
-      url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), 
-      url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), 
-      url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                  
+      src: url('/'"//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); 
+      src: url('/'"//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), 
+      url('/'"//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), 
+      url('/'"//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), 
+      url('/'"//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                  
   }
 
     
@@ -78,7 +78,14 @@
   color: black;
     font-display: swap;
 } 
-
+.loco-button { display: main;
+  text-decoration: none;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  color: black;
+    font-display: swap;
+} 
   p {
     color: black;
     text-align: center;
@@ -200,6 +207,10 @@ i {
   text-align: center;
 }
 
+h1.main-left{
+  float: top;
+  grid-area: 1 / 1 / 4 / 2;
+}
 .main-top { 
   grid-area: 1 / 1 / 2 / 2; 
 
