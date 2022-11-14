@@ -12,22 +12,33 @@
 </head>
 <body>
 <!--nav bar-->
-
-    <div class="topnav" id="myTopnav">
-      <a href="final-project.html" class="active">Home</a>
-      <a href="menu.html">Menu</a>
-      <a href="location.html">Locations</a>
-      <a href="shop.html">Shop</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+<header class="header0">
+  <nav class="navbar">
+      <a href="final-project.html" class="nav-logo">
       </a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="final-project.html" class="nav-link">
+            <img class="homeicon-img" src="img/homesmall.png" alt=""></a>
+      </li>
+          <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+              <a href="menu.html" class="nav-link">Menu</a>
+          </li>
+  <li class="nav-item">
+              <a href="location.html" class="nav-link">Locations</a>
+          </li>
+      </ul>
     </div>
-    <div class="hamburger" onclick="myFunction(this)">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-     
-    
+      <div class="hamburger" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+  </nav>
+</header>
+
   <!--Header-->
   <div class="header">
     <div class="headermenu"> 
@@ -52,9 +63,7 @@
 <div class="main">
   <div class="main-left"></div>
   <div class="main-top"><h1>Take Us Wherever You Go!</h1>
-    <div class="main-top"> 
-    <h1><a href="location.html"></a></h1></div>
-    
+  
   </div>
   <div class="main-shop">
     <p><a href="shop.html">SHOP</a></p></div>
@@ -69,7 +78,8 @@
 
 <!--foot1-->
 <div class="foot1">
-<h1 class="contact">FOLLOW US ONLINE <br> @FIRSTSTOPCOFFEESHOP</h1>
+<h1 class="contact">FOLLOW US ONLINE <br> <img src="img/twitter.png" alt=""> <img src="img/instagram2.png" alt="">@FIRSTSTOPCOFFEESHOP <img src="img/snapchat.png" alt="">
+<img src="img/tikotok.png" alt=""></h1>
 </div>
 
 <!--foot2-->
@@ -91,6 +101,16 @@ alert("Not Numeric");
 /*hamurger*/
 function myFunction(x) {
   x.classList.toggle("change");
+}
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
 }
 </script>
 
