@@ -41,12 +41,14 @@ body {
 }
 
 a {
+  font-family: 'Anti-Design-Endeavour---Demo';
   text-decoration: none;
   color: #000;
   font-size: 100px;
 }
 
 h1 {
+  font-family: 'Anti-Design-Endeavour---Demo';
   margin-top: 50px;
   text-align: center;
   font-weight: normal;
