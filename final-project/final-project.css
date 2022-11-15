@@ -257,13 +257,7 @@ p.main-shop {
 
 .main-right-text {
   grid-area: 3 / 2 / 2 / 3;
-  font-family: 'Recoleta-Bold';
-  src: url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff2') format('woff2'),
-    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
-    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  
 }
 
 .foot1 {
@@ -300,12 +294,6 @@ justify-content: center;
 
 html {
   font-size: 70%;
-  font-family: 'Recoleta,sans-serif';
-  src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
-    url('/fonts/Recoleta-Bold.woff2') format('woff2'),
-    url('/fonts/Recoleta-Bold.woff') format('woff'),
-    url('/fonts/Recoleta-Bold.ttf') format('truetype'),
-    font-weight: normal;
   font-style: normal;
 }
 
@@ -384,13 +372,6 @@ a {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  font-family: 'Recoleta-Bold';
-  src: url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff2') format('woff2'),
-    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
-    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 
 .nav-item {
