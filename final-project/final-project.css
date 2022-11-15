@@ -9,12 +9,12 @@ body {
 
 @font-face {
   font-family: 'Anti Design Endeavour - Demo';
-  src: url('fonts/Anti-Design-Endeavour---Demo.eot');
+  src: url('/FINAL-PROJECT/fonts/Anti\ Design\ Endeavour\ -\ Demo.ttf');
   src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
-    url('fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
-    url('fonts/Anti-Design-Endeavour---Demo.ttf') format('truetype'),
-    url('fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
+    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
+    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
+    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.ttf') format('truetype'),
+    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
 }
 
 
@@ -549,6 +549,8 @@ a {
     display: block;
     cursor: pointer;
 
+  }
+
     .hamburger.active .bar:nth-child(2) {
       opacity: 0;
     }
@@ -560,6 +562,5 @@ a {
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-  }
+  
 
-}
