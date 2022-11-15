@@ -138,6 +138,8 @@ a:hover {
 .Logo-img {
   float: center;
   align-items: center;
+  width: 40vh;
+  height: 40vh;
 }
 
 .header {
@@ -430,6 +432,7 @@ a {
 }
 .Logo-img {
   height: 200px;
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
