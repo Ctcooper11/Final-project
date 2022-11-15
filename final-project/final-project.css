@@ -1,76 +1,81 @@
+@import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
 
-    @import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
-    body {
-      background-color: #FFB4D4;
-      margin: 0;
-      font-family: 'Anti Design Endeavour - Demo';
-      height: 100vh;
-    }
+body {
+  background-color: #FFB4D4;
+  margin: 0;
+  font-family: 'Anti Design Endeavour - Demo';
+  height: 100vh;
+}
 
-    @font-face {
-      font-family: 'Anti Design Endeavour - Demo';
-      src: url('fonts/Anti-Design-Endeavour---Demo.eot');
-      src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
-           url('fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
-           url('fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
-           url('fonts/Anti-Design-Endeavour---Demo.ttf')  format('truetype'),
-           url('fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
-  }
+@font-face {
+  font-family: 'Anti Design Endeavour - Demo';
+  src: url('fonts/Anti-Design-Endeavour---Demo.eot');
+  src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
+    url('fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
+    url('fonts/Anti-Design-Endeavour---Demo.ttf') format('truetype'),
+    url('fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
+}
 
-    
-    .bar1, .bar2, .bar3 {
-      width: 35px;
-      height: 5px;
-      background-color: black;
-      margin: 6px;
-      transition: 0.2s;
-    }
 
-    .change .bar1 {
-        transform: translate(0, 11px) rotate(-45deg);
-    }
-    
-    .change .bar2 {opacity: 0;}
-    
-    .change .bar3 {
-        transform: translate(0, -11px) rotate(45deg);
-    }
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px;
+  transition: 0.2s;
+}
 
-    a {
-      text-decoration: none;
-      color: #000;
-      font-size: 100px;
-    }
-    
-  h1 {
-    margin-top: 50px;
-      text-align: center;
-      font-weight: normal;
-      font-size: 70px;
-      text-decoration: none;
-      color: #000;
-      position: relative;
-    }
-    
-  h1:hover {
-      color: white;
-      text-shadow:0px 0px 20px #FF0D81;
-      -moz-transition: all 0.2s ease-in;
-      -o-transition: all 0.2s ease-in;
-      -webkit-transition: all 0.2s ease-in;
-      transition: all 0.2s ease-in;
-      }
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
 
-  .menu-button { 
+.change .bar2 {
+  opacity: 0;
+}
 
-    position: absolute;
-    z-index: 10;
-    float: center;
-    text-align: center;
-    color: black
-    }
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
 
-.shop-button { display: grid;
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 100px;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 70px;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+h1:hover {
+  color: white;
+  text-shadow: 0px 0px 20px #FF0D81;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.menu-button {
+
+  position: absolute;
+  z-index: 10;
+  float: center;
+  text-align: center;
+  color: black
+}
+
+.shop-button {
+  display: grid;
   float: left;
   margin-left: 250px;
   text-decoration: none;
@@ -78,62 +83,65 @@
   z-index: 10;
   text-align: center;
   color: black;
-    font-display: swap;
-} 
-h1.loco-button { display: main;
+  font-display: swap;
+}
+
+h1.loco-button {
+  display: main;
   text-decoration: none;
   position: absolute;
   z-index: 10;
   text-align: center;
   color: black;
   font-size: 100px;
-    font-display: swap;
-} 
-  p {
-    color: black;
-    text-align: center;
-    margin-top: 5%;
-    font-weight: normal;
-    font-size: 80px;
-    text-decoration-line: none;
-    text-align: center;
-    font-display: swap;
-  }
+  font-display: swap;
+}
 
-  p:hover {
-    color: white;
-    text-shadow:0px 0px 20px #FF0D81;
-    -moz-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-  }
+p {
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 100px;
+  text-decoration-line: none;
+  text-align: center;
+  font-display: swap;
+}
 
-  a {
-    color: black;
-    text-align: center;
-    margin-top: 5%;
-    font-weight: normal;
-    font-size: 40px;
-    text-decoration-line: none;
-    text-align: center;
-  }
-  
-  a:hover {
-    color: white;
-    text-shadow:0px 0px 20px #FF0D81;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    
-  }
-  
-  .Logo-img{
-    float: center;
-    align-items: center;
-  }
+p:hover {
+  color: white;
+  text-shadow: 0px 0px 20px #FF0D81;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
 
-.header {  display: grid;
+a {
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+  font-weight: normal;
+  font-size: 40px;
+  text-decoration-line: none;
+  text-align: center;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0px 0px 20px #FF0D81;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+
+}
+
+.Logo-img {
+  float: center;
+  align-items: center;
+}
+
+.header {
+  display: grid;
   grid-template-columns: repeat(6, 1fr);
   background-color: #8AD5FF;
   grid-template-rows: 1fr;
@@ -143,8 +151,8 @@ h1.loco-button { display: main;
     "headermenu . headerlogo headerlogo headerlocation headershop";
 }
 
-.headerlogo { 
-  grid-area: headerlogo; 
+.headerlogo {
+  grid-area: headerlogo;
   text-align: center;
   float: center;
   align-content: center;
@@ -152,7 +160,7 @@ h1.loco-button { display: main;
 
 .topnav {
   overflow: hidden;
-  background-color: white;
+
   height: 10vh;
 }
 
@@ -173,123 +181,142 @@ h1.loco-button { display: main;
 }
 
 .topnav .icon {
- display: inline;
- color: #000; 
+  display: inline;
+  color: #000;
 }
 
 i {
   color: #000;
   text-align: center;
-} 
+}
 
 /*Main */
 
-.main {  display: grid;
+.main {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 0px 0px;
   grid-auto-flow: row;
   text-align: center;
 }
-h1.main {  display: grid;
-font-size: 100px;
-}  
 
-.main-left { 
-  grid-area: 1 / 1 / 5 / 2; 
-background-image:url(img/1coffee4web.png);
+h1.main {
+  display: grid;
+  font-size: 100px;
+}
+
+.main-left {
+  grid-area: 1 / 1 / 5 / 2;
+  background-image: url(img/1coffee4web.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
 }
 
-h1.main-left{
+h1.main-left {
   float: top;
   font-size: 100px;
   grid-area: 1 / 1 / 4 / 2;
 }
-h.main-top { 
-  grid-area: 1 / 1 / 2 / 2; 
-font-size: 100px;
+
+h1.main-top {
+  grid-area: 1 / 1 / 2 / 2;
+  font-size: 30px;
 }
 
-.main-shop { grid-area: 4 / 1 / 4 / 2; 
-display: center;
-float: center;
-text-align: center;
-}
-
-p.main-shop{
+.main-shop {
+  grid-area: 4 / 1 / 3 / 2;
+  display: center;
+  float: center;
+  text-align: center;
   font-size: 100px;
 }
 
+.main-shop p a {
+  font-size: 80px;
+  
+}
 
-.main-right { 
-  grid-area: 1 / 2 / 5 / 3; 
+p.main-shop {
+  font-size: 200px;
+}
+
+
+.main-right {
+  grid-area: 1 / 2 / 5 / 3;
   background-image: url(img/red-phone-notext.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  
+
 }
 
-.main-right-text { grid-area: 3 / 2 / 3 / 3; 
+.main-right-text {
+  grid-area: 3 / 2 / 2 / 3;
   font-family: 'Recoleta-Bold';
   src: url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff2') format('woff2'),
-  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
-  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
+    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
+    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-.foot1{
-margin: 0;
+.foot1 {
+  margin: 0%;
 }
 
-h1.contact{
+h1.contact {
   float: top;
+  display: block;
+  overflow: hidden;
 }
+
 .foot2 {
   background-image: url(img/checkbackground-img.PNG);
-  text-align: center; 
-margin: 0%;
+display: flex;
+align-items: center;
+justify-content: center;
+  
 }
 
 
-.foot2-gif{
+.foot2-gif {
   width: 100vh;
+  float: center;
+  height: 100%;
+
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 70%;
-    font-family: 'Recoleta,sans-serif';
-    src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
-        url('/fonts/Recoleta-Bold.woff2') format('woff2'),
-         url('/fonts/Recoleta-Bold.woff') format('woff'),
-         url('/fonts/Recoleta-Bold.ttf') format('truetype'),   
+  font-size: 70%;
+  font-family: 'Recoleta,sans-serif';
+  src: local('Recoleta Bold'), local('Recoleta-SemiBold'),
+    url('/fonts/Recoleta-Bold.woff2') format('woff2'),
+    url('/fonts/Recoleta-Bold.woff') format('woff'),
+    url('/fonts/Recoleta-Bold.ttf') format('truetype'),
     font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 
 
 li {
-    list-style: none;
-    font-size: 60px;    
+  list-style: none;
+  font-size: 60px;
 }
 
-
 a {
-    text-decoration: none;
-    font-size: 70%;
-   
+  text-decoration: none;
+  font-size: 70px;
+
 }
 
 .navbar {
@@ -303,13 +330,13 @@ a {
 
 .hamburger {
   display: none;
-      text-align: center;
-      font-weight: normal;
-      font-size: 60px;
-      text-decoration: none;
-      color: #000;
-    }
-    
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+  text-decoration: none;
+  color: #000;
+}
+
 
 .bar {
   display: block;
@@ -320,23 +347,24 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: black;
 }
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-font-size: 50px;
+  font-size: 50px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 30px;
   font-weight: 400;
-  color:black;
+  color: black;
   text-align: center;
-  
+
 }
 
-.nav-link:hover{
-  color:black;
+.nav-link:hover {
+  color: black;
   text-shadow: #8AD5FF;
 }
 
@@ -356,8 +384,8 @@ font-size: 50px;
   text-align: center;
   font-family: 'Recoleta-Bold';
   src: url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff2') format('woff2'),
-  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
-  url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
+    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.woff') format('woff'),
+    url('/xfonts_files/5c571509fa4f36049f00852e/files/Recoleta-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -369,10 +397,10 @@ font-size: 50px;
 }
 
 .homeicon-img {
-float: left;
-display: block;
-margin-right: 300px;
-z-index: -10;
+  float: left;
+  display: block;
+  margin-right: 300px;
+  z-index: -10;
 }
 
 .nav-logo {
@@ -381,27 +409,46 @@ z-index: -10;
   color: black;
 }
 
- /* SHOP PAGE */
+/* SHOP PAGE */
 
-  @media(max-width:600px) {
-    .container {  display: grid;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "header0"
-          "header"
-          "main"
-          "main-left"
-          "main-right"
-          "footer"
-          "footer2";
-        overflow: hidden;
-        grid-gap: 0px;
-    }
-    }  
+@media(max-width:600px) {
+  .container {
+    display: grid;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header0"
+      "header"
+      "main"
+      "main-left"
+      "main-right"
+      "footer"
+      "footer2";
+    overflow: hidden;
+    grid-gap: 0px;
+  }
+}
+.Logo-img {
+  height: 200px;
+}
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: fixed;}
+  .headerlogo {
+    width: 250px;
+
+  }
+
+  .Logo-img {
+    width: 100%;
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: fixed;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -409,19 +456,25 @@ z-index: -10;
     margin: 0;
     overflow: hidden;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 }
+
 @media screen and (max-width: 600px) {
-  .foot2.responsive {position: relative;}
+  .foot2.responsive {
+    position: relative;
+  }
+
   .foot2-gif.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .foot2-gif.responsive a {
     float: none;
     display: block;
@@ -430,47 +483,83 @@ z-index: -10;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media  screen and (max-width: 600px) {
   .nav-menu {
-      position: fixed;
-      left: -100%;
-      flex-direction: column;
-      background-color: #8AD5FF;
-    
-      text-align: center;
-      transition: 0.3s;
-  overflow: hidden;
+    position: fixed;
+    left: -100%;
+    flex-direction: column;
+    background-color: #8AD5FF;
+
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
   }
 
   .nav-menu.active {
-      left: 0;
+    left: 0;
+    width: 100%
   }
 
   .nav-item {
-   
+    margin-left: 0
   }
-  .const navLink  document.querySelectorAll("nav-link");
 
-.navLink.forEach(n => n.addEventListener("click", closeMenu));
+  .contact{
+    font-size: 45px;
+  }
 
-.function closeMenu() {
+  .main-left{
+    height: 600px;
+  }
+
+  .main-left h1 a{
+    font-size: 40px;
+  }
+
+  .main-right{
+    height: 600px;
+  }
+  
+  .main-right-text h1{
+    font-size: 40px;
+  margin-bottom: 30px;
+  }
+  .main-shop p a{
+    font-size: 60px;
+  }
+
+  .foot2-gif{
+    width: 100%;
+  }
+
+  .homeicon-img{
+    float: center;
+    display: block
+  }
+  
+  .const navLink document.querySelectorAll("nav-link");
+
+  .navLink.forEach(n=> n.addEventListener("click", closeMenu));
+
+  .function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-}
+  }
 
   .hamburger {
-      display: block;
-      cursor: pointer;
-      .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
+    display: block;
+    cursor: pointer;
+
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
     }
 
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+      transform: translateY(8px) rotate(45deg);
     }
 
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-8px) rotate(-45deg);
     }
   }
 
