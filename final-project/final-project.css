@@ -138,8 +138,10 @@ a:hover {
 .Logo-img {
   float: center;
   align-items: center;
-  width: 40vh;
-  height: 40vh;
+  width: 100%;
+  height: unset;
+  display: grid;
+  grid-area: headerlogo;
 }
 
 .header {
@@ -158,6 +160,7 @@ a:hover {
   text-align: center;
   float: center;
   align-content: center;
+  display: grid;
 }
 
 .topnav {
@@ -394,6 +397,15 @@ a {
 
 /* SHOP PAGE */
 
+@media screen (max-width:1200px){
+.headerlogo {
+  display:grid;
+  float:center;
+  max-width: 50vh;
+  display: center;
+}
+}
+
 @media(max-width:600px) {
   .container {
     display: grid;
@@ -413,7 +425,10 @@ a {
 }
 .Logo-img {
   height: 200px;
-  display: block;
+  width: 300px;
+  float: center;
+  align-items: center;
+  display: grid;
 }
 
 @media screen and (max-width: 600px) {
