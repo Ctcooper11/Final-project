@@ -1,13 +1,21 @@
-@import url('/FINAL-PROJECT/fonts/Anti\ Design\ Endeavour\ -\ Demo.ttf');
+@import url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf');
+
+
+@font-face {
+  font-family: 'Anti-Design-Endeavour-Demo.ttf';
+  src: url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('woff'),
+  url('https://befonts.com/wp-content/uploads/2022/10/Anti-Design-Endeavour-Demo.ttf') format('truetype');
+  font-display: swap;
+}
 
 body {
   background-color: #FFB4D4;
   margin: 0;
-  font-family: 'Anti Design Endeavour - Demo';
+  font-family: 'Anti-Design-Endeavour-Demo.ttf';
   height: 100vh;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Anti Design Endeavour - Demo';
   src: url('/FINAL-PROJECT/fonts/Anti\ Design\ Endeavour\ -\ Demo.ttf');
   src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
@@ -16,7 +24,7 @@ body {
     url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.ttf') format('truetype'),
     url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
 }
-
+*/
 
 .bar1,
 .bar2,
@@ -41,14 +49,14 @@ body {
 }
 
 a {
-  font-family: 'Anti-Design-Endeavour---Demo';
+  
   text-decoration: none;
   color: #000;
   font-size: 100px;
 }
 
 h1 {
-  font-family: 'Anti-Design-Endeavour---Demo';
+  
   margin-top: 50px;
   text-align: center;
   font-weight: normal;
