@@ -1,13 +1,12 @@
 @font-face {
   font-family: 'Anti Design Endeavour - Demo';
   src: url('/FINAL-PROJECT/fonts/Anti\ Design\ Endeavour\ -\ Demo.ttf');
-  /*src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
+  src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
     url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
     url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
     url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.ttf') format('truetype'),
     url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
-*/
-  }
+}
 
 body {
   background-color: #FFB4D4;
@@ -177,17 +176,6 @@ a:hover {
   text-decoration: none;
   font-size: 25px;
   margin-bottom: 20px;
-}
-@import url("https://use.typekit.net/zmi1sct.css");
-
-@font-face {
-    font-family:p22-mackinac-pro, serif; ;
-    src: url("https://use.typekit.net/zmi1sct.css");
-    font-weight: 800;
-    font-style: normal;  
-}
-a.nav-link{
-  font-family:p22-mackinac-pro, serif; ;
 }
 
 .topnav a.active {
@@ -365,7 +353,6 @@ a {
   text-align: center;
 
 }
-
 
 .nav-link:hover {
   color: black;

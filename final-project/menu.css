@@ -4,12 +4,19 @@
 }
 */
 
+@import url("https://use.typekit.net/zmi1sct.css");
 
+@font-face {
+    font-family:p22-mackinac-pro, serif; ;
+    src: url("https://use.typekit.net/zmi1sct.css");
+    font-weight: 800;
+    font-style: normal;  
+}/*
 @import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
 @font-face{
   font-family: 'Recoleta-Bold';
   src: url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
-}
+}*/
 h1 {
     text-align: center;
     margin-top: 10%;
@@ -17,7 +24,7 @@ h1 {
     font-weight: normal;
     font-size: 50px;
     color: black;
-    font-family: 'Recoleta-Bold'; 
+    font-family:p22-mackinac-pro, serif; ;
   }
   
   h1:hover {
