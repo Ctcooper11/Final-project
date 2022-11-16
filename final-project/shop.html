@@ -5,12 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="shop.css">
+  <link rel="icon" type="image/png" href="img/favicon16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="img/favicon32.png" sizes="32x32">
   <title>Charlotte's Coffee Shop</title>
 </body>
+<!--nav bar-->
 <div class="container">
+    <nav class="navbar">
+        <div class="hamburger" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+    </nav>
     <div class="titles">
 <p class="beans">BEANS</p>
-<img class="beans-img"src="IMG/beansbearsmall-img1.png"/>
+<img class="beans-img"src="img/beanssbear.png"/>
 </p>
 <br>
 <br>
@@ -18,7 +27,7 @@
 <br>
 <br>
 <p class="grounds">GROUNDS</p>
-<img class="grounds-img"src="img/groundsbearsmall-img2.png"/>
+<img class="grounds-img"src="img/groundy.png"/>
 </p>
 <br>
 <br>
@@ -26,26 +35,45 @@
 <br>
 <br>
 <p class="merch">MERCH</p>
-<img class="merch-img"src="img/merch-img3.png"/>
+<img class="merch-img"src="img/remerch.svg"/>
 <br>
 <br>
 <br>
 <br>
 <br>
 <p class="gift-cards">GIFT CARDS</p>
-<img class="gc-img"src="img/giftcard4web-img.png"/>
+<img class="gc-img"src="img/gc6.png"/>
 </p>
 </div>
 
    
     <div class="shop-right">
-        <img class="right-img" src="img/checkbackground-img.PNG" alt="checkered">
-   
-    <div class="shop-left"></div>       
-   
-   
-  <style>
-    @import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
-   </style>
- 
- <body>
+        <img class="right-b" src="img/checkbackground-img.PNG" alt="checkered">
+  
+    <script>
+        function myFunction()
+        {
+        var x=document.getElementById("demo").value;
+        if(x==""||isNaN(x))
+        {
+        alert("Not Numeric");
+        }
+        }
+        /*hamurger*/
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+        
+        hamburger.addEventListener("click", mobileMenu);
+        
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+        </script>
+        
+        </body>
+        </html>

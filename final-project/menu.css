@@ -1,9 +1,23 @@
+/*@font-face {
+  font-family: 'Anti Design Endeavour - Demo';
+  src: url('/FINAL-PROJECT/fonts/Anti\ Design\ Endeavour\ -\ Demo.ttf');
+}
+*/
+
+
+@import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
+@font-face{
+  font-family: 'Recoleta-Bold';
+  src: url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
+}
 h1 {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
+  margin-left: 30px;
     font-weight: normal;
     font-size: 50px;
     color: black;
+    font-family: 'Recoleta-Bold'; 
   }
   
   h1:hover {
@@ -13,54 +27,50 @@ h1 {
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    
   }
 
+  
+  body{
+   
+    margin: 0%;
+
+
+  }
   .container {  display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    background-image:url(img/checkbackground-img.PNG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 0px 0px;
     grid-auto-flow: row;
-    overflow: hidden;
-    font-family: 'Recoleta', sans-serif; 
-    font-family: "Recoleta-Bold"; src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot"); src: url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.svg#Recoleta-Bold") format("svg");                                           
+    grid-template-areas:
+      "head-text head-text head-text recycle recycle recycle recycle recycle"
+      "item1 item1 item2 item2 item3 item3 item4 item4"
+      "item1 item1 item2 item2 item3 item3 item4 item4";
   }
   
-  .header { grid-area: 1 / 1 / 4 / 1; 
-background-color: #EFD4B7;}
+  .head-text { grid-area: head-text; 
+  background-color: #EFD4B7;
+  text-align: center;
+}
+
   
-  .name { grid-area: 2 / 2 / 4 / 6; }
+  .recycle { grid-area: recycle; 
+background-color: #EFD4B7;
+ 
+
+  }
   
-  .cup { grid-area: 1 / 7 / 4 / 12; }
+  .item1 { grid-area: item1; 
+    transform: rotate(3.26deg);
+  }
+
+  .item2 { grid-area: item2; }
   
-  .coffee1 { grid-area: 5 / 2 / 9 / 6; }
+  .item3 { grid-area: item3; }
   
-  .coffee2 { grid-area: 5 / 6 / 9 / 10; }
+  .item4 { grid-area: item4; }
   
-  .coffee3 { grid-area: 5 / 10 / 9 / 13; }
   
-  .background { grid-area: 4 / 1 / 9 / 14; }
-  
-  .footer { grid-area: 9 / 1 / 13 / 14; }
-  
-  @media(max-width:1000px) {
-    .container {  display: grid;
-        grid-template-columns: 1fr 1fr repeat(16, 1fr);
-        grid-template-rows: repeat(16, 1fr);
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "header"
-          "name"
-          "cup"
-          "coffee1"
-          "coffee2"
-          "coffee3"
-          "background"
-          "footer";
-        height: 100vh;
-        width: 100vh;
-        overflow: hidden;
-        grid-gap: 0px;
-    }  
-    }

@@ -9,7 +9,6 @@
 */
   }
 
-
 body {
   background-color: #FFB4D4;
   margin: 0;
@@ -178,6 +177,14 @@ a:hover {
   text-decoration: none;
   font-size: 25px;
   margin-bottom: 20px;
+}
+@font-face {
+  font-family:'Recoleta-Bold';
+  src: url('/FINAL-PROJECT/fonts/Recoleta-Bold.ttf');
+}
+a.nav-link{
+font-family: "Recoleta-Bold"; 
+src: url('/FINAL-PROJECT/fonts/Recoleta-Bold.ttf');
 }
 
 .topnav a.active {
@@ -355,6 +362,7 @@ a {
   text-align: center;
 
 }
+
 
 .nav-link:hover {
   color: black;
