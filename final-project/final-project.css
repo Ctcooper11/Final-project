@@ -1,13 +1,11 @@
-@font-face {
-  font-family: 'Anti Design Endeavour - Demo';
-  src: url('/FINAL-PROJECT/fonts/Anti\ Design\ Endeavour\ -\ Demo.ttf');
-  src: url('fonts/Anti-Design-Endeavour---Demo.eot?#iefix') format('embedded-opentype'),
-    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.woff2') format('woff2'),
-    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.woff') format('woff'),
-    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.ttf') format('truetype'),
-    url('/FINAL-PROJECT/fonts/Anti-Design-Endeavour---Demo.svg#Anti Design Endeavour - Demo') format('svg');
-}
+@import url(https://use.typekit.net/zmi1sct.css);
 
+@font-face {
+  font-family: lisbeth-display, sans-serif;
+  src: url(https://use.typekit.net/zmi1sct.css);
+  font-weight: 400;
+  font-style: normal;
+}
 body {
   background-color: #FFB4D4;
   margin: 0;
@@ -37,14 +35,14 @@ body {
 }
 
 a {
-  font-family: 'Anti Design Endeavour - Demo';
+  font-family: lisbeth-display, sans-serif;
   text-decoration: none;
   color: #000;
   font-size: 100px;
 }
 
 h1 {
-  font-family: 'Anti Design Endeavour - Demo';
+  font-family: lisbeth-display, sans-serif;
   margin-top: 50px;
   text-align: center;
   font-weight: normal;
@@ -269,6 +267,7 @@ h1.contact {
   float: top;
   display: block;
   overflow: hidden;
+  font-family: lisbeth-display, sans-serif;
 }
 
 .foot2 {
