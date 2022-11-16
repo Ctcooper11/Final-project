@@ -319,6 +319,10 @@ a {
   z-index: 1;
 }
 
+.navbar a{
+  font-family:p22-mackinac-pro, serif; ;
+}
+
 .hamburger {
   display: none;
   text-align: center;
@@ -354,6 +358,20 @@ a {
 
 }
 
+.nav-link a 
+{  font-family:p22-mackinac-pro, serif; ;}
+
+@import url("https://use.typekit.net/zmi1sct.css");
+
+@font-face {
+    font-family:p22-mackinac-pro, serif; ;
+    src: url("https://use.typekit.net/zmi1sct.css");
+    font-weight: 800;
+    font-style: normal;  
+}
+
+
+
 .nav-link:hover {
   color: black;
   text-shadow: #8AD5FF;
@@ -379,6 +397,7 @@ a {
   margin-left: 7rem;
   text-align: right;
 }
+
 
 .homeicon-img {
   float: left;
