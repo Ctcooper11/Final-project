@@ -145,7 +145,8 @@ height: 50vh;
 #menu li
 {
   padding: 10px 0;
-  font-size: 50px;
+
+   font-size: 50px;
 }
 
 /*
@@ -252,10 +253,10 @@ body {
         }
           
         .titles { 
-            margin-top: 30px;
             width: 50vh; 
           position: absolute;
           z-index: -1;
+          margin-top: 30px;
         }
 
           .product-img { grid-area: 1 / 2 / 6 / 3; 
