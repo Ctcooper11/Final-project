@@ -1,9 +1,14 @@
-@import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
-@font-face{
-    font-family: 'Recoleta-Bold';
-    src: url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold); 
+@import url("https://use.typekit.net/zmi1sct.css");
+
+@font-face {
+    font-family:p22-mackinac-pro, serif; ;
+    src: url("https://use.typekit.net/zmi1sct.css");
+    font-weight: 800;
+    font-style: normal;  
 }
-   
+
+
+
     .container {  display: grid;
     gap: 0px 0px;
     grid-template-columns: repeat(2, 1fr);
@@ -15,7 +20,7 @@
 body {
     background-color:#EFD4B7;
     margin: 0;
-    font-family: "Recoleta-Bold"; 
+    font-family:p22-mackinac-pro, serif; ;
     height: 100vh;
     width: 100vh;
   }

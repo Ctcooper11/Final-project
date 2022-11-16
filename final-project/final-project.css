@@ -178,13 +178,16 @@ a:hover {
   font-size: 25px;
   margin-bottom: 20px;
 }
+@import url("https://use.typekit.net/zmi1sct.css");
+
 @font-face {
-  font-family:'Recoleta-Bold';
-  src: url('/FINAL-PROJECT/fonts/Recoleta-Bold.ttf');
+    font-family:p22-mackinac-pro, serif; ;
+    src: url("https://use.typekit.net/zmi1sct.css");
+    font-weight: 800;
+    font-style: normal;  
 }
 a.nav-link{
-font-family: "Recoleta-Bold"; 
-src: url('/FINAL-PROJECT/fonts/Recoleta-Bold.ttf');
+  font-family:p22-mackinac-pro, serif; ;
 }
 
 .topnav a.active {
