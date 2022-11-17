@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'anti_design_endeavour_-_demRg';
-  src: url(final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2) format('woff2'),
-       url('anti_design_endeavour_-_demo-webfont.woff') format('woff');
+  src: url('Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2'),
+       url('Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -35,14 +35,14 @@ body {
 }
 
 a {
- **
+ /**/
   text-decoration: none;
   color: #000;
   font-size: 100px;
 }
 
 h1 {
- **
+ /**/
  font-family: 'anti_design_endeavour_-_demRg';
   margin-top: 50px;
   text-align: center;
@@ -279,7 +279,7 @@ h1.contact {
   display: block;
   overflow: hidden;
   font-family: 'anti_design_endeavour_-_demRg';
- **
+
 
 }
 
@@ -426,6 +426,7 @@ a {
 
 /* SHOP PAGE */
 
+/* 
 @media screen (max-width:1200px){
 .headerlogo {
   display:grid;
@@ -434,6 +435,7 @@ a {
   display: center;
 }
 }
+*/
 
 @media(max-width:600px) {
   .container {
@@ -566,7 +568,7 @@ a {
     float: center;
     display: block
   }
-  
+  /*/
   .const navLink document.querySelectorAll("nav-link");
 
   .navLink.forEach(n=> n.addEventListener("click", closeMenu));
@@ -593,5 +595,4 @@ a {
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-  
-
+    */
