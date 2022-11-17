@@ -250,7 +250,7 @@ text-align: center;
 text-align: center;
 float: center;
 display: grid;
-margin-right: 120px;
+
 }
 
 h1.main-top {
@@ -312,7 +312,7 @@ p.main-shop {
   text-align: center;
   float: center;
   display: block;
-  font-size: 100px;
+
 }
 
 .main-right-text h1{
@@ -336,7 +336,7 @@ h1.contact {
 text-align: center;
 font-size: 60px;
 
-margin-left: 40px;
+margin-right: 40px;
 ;
 }
 
