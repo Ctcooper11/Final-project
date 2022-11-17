@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'anti_design_endeavour_-_demRg';
-  src: url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2'),
-       url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff');
+  /* src: url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2'),
+       url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'); */
+  src: url('./fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'),
+       url('./fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 
@@ -568,7 +570,8 @@ a {
     float: center;
     display: block
   }
-  /*/
+}
+  /**
   .const navLink document.querySelectorAll("nav-link");
 
   .navLink.forEach(n=> n.addEventListener("click", closeMenu));
@@ -595,4 +598,4 @@ a {
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-    */
+    **/
