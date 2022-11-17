@@ -11,7 +11,7 @@
 body {
   background-color: #FFB4D4;
   margin: 0;
-
+text-align: center;
   height: 100vh;
 }
 .bar1,
@@ -42,6 +42,7 @@ a {
   color: #000;
   font-size: 100px;
   font-family: 'anti_design_endeavour_-_demRg';
+  text-align: center;
 }
 
 
@@ -59,6 +60,7 @@ font-style: normal;
   text-decoration: none;
   color: #000;
   position: relative;
+  
 }
 
 h1:hover {
@@ -223,6 +225,7 @@ i {
 
 h1.main {
   display: grid;
+  text-align: center;
   font-size: 100px;
     font-family: 'anti_design_endeavour_-_demRg';
 }
@@ -235,20 +238,35 @@ h1.main {
   background-size: cover;
   text-align: center;
   font-family: 'anti_design_endeavour_-_demRg';
+  
 }
 
-h1.main-left a {
-  float: top;
-  font-size: 100px;
-  grid-area: 1 / 1 / 4 / 2;
+.main-left h1 a {
+  float: center;
+  font-size: 70px;
+  grid-area: main-left;
   font-family: 'anti_design_endeavour_-_demRg';
-
+text-align: center;
+text-align: center;
+float: center;
+display: grid;
+margin-right: 120px;
 }
 
 h1.main-top {
   grid-area: 1 / 1 / 2 / 2;
   font-size: 30px;
   font-family: 'anti_design_endeavour_-_demRg';
+  float: center;
+  text-align: center;
+ 
+}
+
+.main-top h1 a {
+  font-size: 80px;
+  font-family: 'anti_design_endeavour_-_demRg';
+  text-align: center;
+
 }
 
 .main-shop {
@@ -262,11 +280,20 @@ h1.main-top {
 .main-shop p a {
   font-size: 80px;
   font-family: 'anti_design_endeavour_-_demRg';
+  text-align: center;
+  text-align: center;
+  float: center;
+  display: grid;
+ 
 }
 
 p.main-shop {
   font-size: 200px; 
    font-family: 'anti_design_endeavour_-_demRg';
+   text-align: center;
+   text-align: center;
+   float: center;
+   display: block;
 }
 
 
@@ -282,19 +309,35 @@ p.main-shop {
 .main-right-text {
   grid-area: 3 / 2 / 2 / 3;
   font-family: 'anti_design_endeavour_-_demRg';
+  text-align: center;
+  float: center;
+  display: block;
+  font-size: 100px;
+}
+
+.main-right-text h1{
+  text-align: center;
+  float: center;
+  display: block;
+  font-size: 60px;
 }
 
 .foot1 {
   margin: 0%;
+  display: block;
 }
 
 h1.contact {
-  float: top;
+  grid-area: foot1;
+  float: center;
   display: block;
   overflow: hidden;
   font-family: 'anti_design_endeavour_-_demRg';
+text-align: center;
+font-size: 60px;
 
-
+margin-left: 40px;
+;
 }
 
 .foot2 {
@@ -317,22 +360,26 @@ justify-content: center;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 html {
   font-size: 70%;
   font-style: normal;
+
 }
 
 
 li {
   list-style: none;
   font-size: 60px;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   font-size: 70px;
+  text-align: center;
 
 }
 
@@ -445,7 +492,7 @@ a {
 
 /* SHOP PAGE */
 
-/* 
+
 @media screen (max-width:1200px){
 .headerlogo {
   display:grid;
@@ -454,7 +501,6 @@ a {
   display: center;
 }
 }
-*/
 
 @media(max-width:600px) {
   .container {
@@ -559,11 +605,17 @@ a {
 
   .main-left{
     height: 600px;
+    text-align: center;
+    float: center;
+    display: block;
   }
 
   .main-left h1 a{
     font-size: 40px;
     font-family: 'anti_design_endeavour_-_demRg';
+    text-align: center;
+    float: center;
+    display: block;
   }
 
   .main-right{
@@ -588,7 +640,7 @@ a {
     display: block
   }
 }
-  /**
+  
   .const navLink document.querySelectorAll("nav-link");
 
   .navLink.forEach(n=> n.addEventListener("click", closeMenu));
@@ -615,4 +667,4 @@ a {
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-    **/
+    
