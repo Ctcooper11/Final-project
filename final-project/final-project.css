@@ -9,7 +9,7 @@
 
 }
 body {
-  background-color: #FFB4D4;
+  background-color: white;
   margin: 0;
 text-align: center;
   height: 100vh;
@@ -326,6 +326,7 @@ p.main-shop {
   margin: 0%;
   display: block;
   margin-right: 60px;
+  background-color: #FFB4D4;
 }
 
 h1.contact {
@@ -336,8 +337,9 @@ h1.contact {
   font-family: 'anti_design_endeavour_-_demRg';
 text-align: center;
 font-size: 60px;
-
+background-color: #FFB4D4;
 margin-right: 100px;
+margin-bottom: 80px
 ;
 }
 
