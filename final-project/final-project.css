@@ -237,11 +237,12 @@ h1.main {
   font-family: 'anti_design_endeavour_-_demRg';
 }
 
-h1.main-left {
+h1.main-left a {
   float: top;
   font-size: 100px;
   grid-area: 1 / 1 / 4 / 2;
   font-family: 'anti_design_endeavour_-_demRg';
+
 }
 
 h1.main-top {
