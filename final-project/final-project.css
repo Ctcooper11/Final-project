@@ -1,15 +1,15 @@
-@import url(https://use.typekit.net/zmi1sct.css);
-
 @font-face {
-  font-family: lisbeth-display, sans-serif;
-  src: url(https://use.typekit.net/zmi1sct.css);
-  font-weight: 400;
+  font-family: 'anti_design_endeavour_-_demRg';
+  src: url(Final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2) format('woff2'),
+       url('anti_design_endeavour_-_demo-webfont.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
+
 }
 body {
   background-color: #FFB4D4;
   margin: 0;
-  font-family: 'Anti-Design-Endeavour-Demo';
+
   height: 100vh;
 }
 .bar1,
@@ -35,14 +35,15 @@ body {
 }
 
 a {
-  font-family: lisbeth-display, sans-serif;
+ **
   text-decoration: none;
   color: #000;
   font-size: 100px;
 }
 
 h1 {
-  font-family: lisbeth-display, sans-serif;
+ **
+ font-family: 'anti_design_endeavour_-_demRg';
   margin-top: 50px;
   text-align: center;
   font-weight: normal;
@@ -91,6 +92,7 @@ h1.loco-button {
   color: black;
   font-size: 100px;
   font-display: swap;
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 p {
@@ -101,6 +103,7 @@ p {
   text-decoration-line: none;
   text-align: center;
   font-display: swap;
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 p:hover {
@@ -119,6 +122,7 @@ a {
   font-size: 40px;
   text-decoration-line: none;
   text-align: center;
+  
 }
 
 a:hover {
@@ -174,6 +178,7 @@ a:hover {
   text-decoration: none;
   font-size: 25px;
   margin-bottom: 20px;
+  
 }
 
 .topnav a.active {
@@ -200,11 +205,13 @@ i {
   gap: 0px 0px;
   grid-auto-flow: row;
   text-align: center;
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 h1.main {
   display: grid;
   font-size: 100px;
+    font-family: 'anti_design_endeavour_-_demRg';
 }
 
 .main-left {
@@ -214,17 +221,20 @@ h1.main {
   background-position: center center;
   background-size: cover;
   text-align: center;
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 h1.main-left {
   float: top;
   font-size: 100px;
   grid-area: 1 / 1 / 4 / 2;
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 h1.main-top {
   grid-area: 1 / 1 / 2 / 2;
   font-size: 30px;
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 .main-shop {
@@ -237,11 +247,12 @@ h1.main-top {
 
 .main-shop p a {
   font-size: 80px;
-  
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 p.main-shop {
-  font-size: 200px;
+  font-size: 200px; 
+   font-family: 'anti_design_endeavour_-_demRg';
 }
 
 
@@ -256,7 +267,7 @@ p.main-shop {
 
 .main-right-text {
   grid-area: 3 / 2 / 2 / 3;
-  
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
 .foot1 {
@@ -267,7 +278,9 @@ h1.contact {
   float: top;
   display: block;
   overflow: hidden;
-  font-family: lisbeth-display, sans-serif;
+  font-family: 'anti_design_endeavour_-_demRg';
+ **
+
 }
 
 .foot2 {
@@ -319,7 +332,7 @@ a {
 }
 
 .navbar a{
-  font-family:p22-mackinac-pro, serif; ;
+ 
 }
 
 .hamburger {
@@ -529,6 +542,7 @@ a {
 
   .main-left h1 a{
     font-size: 40px;
+    font-family: 'anti_design_endeavour_-_demRg';
   }
 
   .main-right{
@@ -541,6 +555,7 @@ a {
   }
   .main-shop p a{
     font-size: 60px;
+      font-family: 'anti_design_endeavour_-_demRg';
   }
 
   .foot2-gif{

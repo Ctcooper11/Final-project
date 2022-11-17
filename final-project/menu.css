@@ -150,11 +150,12 @@ height: 50vh;
 h1 {
     text-align: center;
     margin-top: 10%;
-  margin-left: 30px;
+  margin-left: 150px;
     font-weight: normal;
     font-size: 50px;
     color: black;
     font-family:p22-mackinac-pro, serif; ;
+
   }
   
   h1:hover {
@@ -262,7 +263,7 @@ h1 {
   
   .recycle { grid-area: recycle; 
 background-color: #EFD4B7;
- 
+ margin-left: 150px;
 
   }
   
