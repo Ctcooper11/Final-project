@@ -2,7 +2,7 @@
   font-family: 'anti_design_endeavour_-_demRg';
   /* src: url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2'),
        url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'); */
-  src: url('./fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'),
+  src: url('./final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'),
        url('./fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
