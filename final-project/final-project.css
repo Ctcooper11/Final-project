@@ -130,6 +130,11 @@ a {
   font-size: 40px;
   text-decoration-line: none;
   text-align: center;
+  font-family: 'anti_design_endeavour_-_demRg';
+  src: url('./Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'),
+  url('./fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2');
+ font-weight: normal;
+ font-style: normal;
   
 }
 
@@ -340,7 +345,8 @@ a {
 }
 
 .navbar a{
- 
+  font-family:p22-mackinac-pro, serif; ;
+
 }
 
 .hamburger {
@@ -368,6 +374,7 @@ a {
   justify-content: space-between;
   align-items: center;
   font-size: 50px;
+  font-family:p22-mackinac-pro, serif; ;
 }
 
 .nav-link {
@@ -411,11 +418,14 @@ a {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  font-family:p22-mackinac-pro, serif; ;
 }
+
 
 .nav-item {
   margin-left: 7rem;
   text-align: right;
+  font-family:p22-mackinac-pro, serif; ;
 }
 
 
