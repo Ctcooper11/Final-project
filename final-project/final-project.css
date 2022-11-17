@@ -324,10 +324,9 @@ p.main-shop {
 
 .foot1 {
   margin: 0%;
-  display: grid;
+  display: block;
   margin-right: 60px;
   background-color: #FFB4D4;
-
 }
 
 h1.contact {
@@ -340,7 +339,7 @@ text-align: center;
 font-size: 60px;
 background-color: #FFB4D4;
 margin-right: 100px;
-height: 20vh;
+margin-bottom: 50px;
 }
 
 .foot2 {
