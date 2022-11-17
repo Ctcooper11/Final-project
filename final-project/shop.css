@@ -8,12 +8,11 @@
 }
 #menuToggle
 {
-  display: block;
+
   position: fixed;
   top: 30px;
   left: 40px;
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 }
