@@ -1,3 +1,205 @@
+@import url("https://use.typekit.net/zmi1sct.css");
+
+@font-face {
+    font-family:p22-mackinac-pro, serif; ;
+    src: url("https://use.typekit.net/zmi1sct.css");
+    font-weight: 800;
+    font-style: normal;  
+}
+@font-face {
+    font-family: 'anti_design_endeavour_-_demRg';
+    /* src: url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2'),
+         url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'); */
+    src: url('./Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'),
+         url('./fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.soho p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+}
+.soho h2 {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+
+}
+
+.soho:hover {
+   box-shadow: 0 0 0 200px rgba(0,0,0,0.5) inset ;
+}
+.soho:hover h2{
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.8s;
+}
+
+.soho:hover p{
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.8s;
+}
+
+body{
+    font-family:p22-mackinac-pro, serif; 
+   
+    margin: 0%;
+}
+
+
+h1 {
+    font-weight: normal;
+    font-size: 40px;
+    color: black;
+    margin-left: 90px;
+    font-family:p22-mackinac-pro, serif; ;
+    
+
+  }
+  
+  h1:hover {
+    color: #459DD1;
+    text-shadow:0px 0px 20px #8AD5FF;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+
+  #menuToggle
+{
+  display: block;
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 20;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color:black;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+    color: darkred;
+    text-shadow:0px 0px 20px palevioletred;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;  
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 60px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 20; 
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #EFD4B7;
+  background: black;
+  border-radius: 3px;
+  
+  z-index: 20;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: black;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  position: absolute;
+  width: 342px;
+  margin: -100px 0 0 -50px;
+height: 50vh;
+  padding-top: 125px;
+  z-index: 10;
+  background: #EFD4B7;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  background: #EFD4B7;
+   font-size: 50px;
+   z-index: 20;
+}
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
 .container {  display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -11,16 +213,17 @@
   }
   
   .soho { grid-area: soho;
-    background-image: url(img/midtown.png);
+    background-image: url(img/soho2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     text-align: center;
+    height: 55vh;
 
 }
   
   .midtown { grid-area: midtown; 
-    background-image: url(img/1coffee4web.png);
+    background-image: url(img/upperwestside.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -28,12 +231,13 @@
 }
   
   .upperwest { grid-area: upperwest;
-    background-image: url(img/midtown2.png);
+    background-image: url(img/upperwestside.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     text-align: center;
-    
+    height: 55vh;
+ 
 }
   
   .chelsea { grid-area: chelsea; 
@@ -42,6 +246,7 @@
     background-position: center center;
     background-size: cover;
     text-align: center;
+    height: 60vh;
   
 }
   
@@ -51,6 +256,7 @@
     background-position: center center;
     background-size: cover;
     text-align: center;
+
 
 }
   
@@ -63,7 +269,97 @@
 
 }
 
+footer{
+    background-color:#FC8DBE;
+margin-bottom: 100px;
+}
 
+footer h1{
+    font-family: 'anti_design_endeavour_-_demRg';
+    /* src: url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2'),
+         url('../Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'); */
+    src: url('./Final-project/final-project/fonts/anti_design_endeavour_-_demo-webfont.woff') format('woff'),
+         url('./fonts/anti_design_endeavour_-_demo-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    margin-right: 80px;
+    font-size: 50px;
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    display: grid;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: black;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    
+  }
+  .hr-lines2{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align:center ;
+   
+   
+  }
+  .hr-lines2:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+   
+    margin-right: 0px;
+  }
+  
+  p{
+  
+    color:black;
+  }
+  
+  section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  
+  }
+  
+  
+  
+
+@media(max-width:600px) {
+    .container {
+      display: block;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+       "header"
+        "container"
+        "soho"
+        "midtown"
+        "upperwest"
+        "chelsea"
+        "right"
+        "couple";
+      overflow: hidden;
+      grid-gap: 0px;
+      align-content: center;
+    }
+  } 
 
 
 

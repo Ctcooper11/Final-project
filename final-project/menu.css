@@ -264,6 +264,8 @@ h1 {
   .recycle { grid-area: recycle; 
 background-color: #EFD4B7;
  margin-left: 150px;
+ height: 20vh;
+ width: 10vh;
 
   }
   
@@ -301,4 +303,53 @@ background-color: #EFD4B7;
 
   }
   
+
+    @media(max-width:600px) {
+      .container {
+        display: grid;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+         "body"
+          "menu-items"
+          "head-text"
+          "item1"
+          "item2"
+          "item3"
+          "item4";
+        overflow: hidden;
+        grid-gap: 0px;
+      }
+    } 
   
+    @media(max-width:600px) {
+     
+  .menu-items{
+    display: grid;
+    position:fixed;
+    
+  }
+ .head-text{
+  position:relative;
+  display:grid;
+  height: 10vh;
+  float: center;
+ 
+ }
+ .recycle{
+  position:absolute;
+  display:grid;
+  height: 20vh;
+  margin-top: 50px;
+    }
+  
+    .item1{
+      width: 100vh;
+      float: center;
+    }
+    .item1 img{
+      float: center;
+ 
+    }
+
+  }

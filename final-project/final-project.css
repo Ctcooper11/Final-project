@@ -324,22 +324,24 @@ p.main-shop {
 
 .foot1 {
   margin: 0%;
-  display: grid;
+
   margin-right: 60px;
   background-color: #FFB4D4;
+  display:inline;
 }
 
 h1.contact {
   grid-area: foot1;
   float: center;
-  display: block;
+  display:inline-block;
   overflow: hidden;
   font-family: 'anti_design_endeavour_-_demRg';
 text-align: center;
 font-size: 60px;
 background-color: #FFB4D4;
 margin-right: 100px;
-margin-bottom: 50px;
+margin-bottom: 30px;
+
 }
 
 .foot2 {
@@ -515,7 +517,7 @@ a {
       "main"
       "main-left"
       "main-right"
-      "footer"
+      "contact"
       "footer2";
     overflow: hidden;
     grid-gap: 0px;
@@ -532,6 +534,7 @@ a {
 @media screen and (max-width: 600px) {
   .headerlogo {
     width: 250px;
+    
 
   }
 
@@ -578,7 +581,13 @@ a {
     text-align: left;
     margin: 0%;
   }
+ h1.contact.responsive{
+position: absolute;
+display: grid;
+
+  }
 }
+
 
 @media  screen and (max-width: 600px) {
   .nav-menu {
