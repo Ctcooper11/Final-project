@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/zmi1sct.css");
 
 @font-face {
-    font-family:p22-mackinac-pro, serif; ;
+    font-family:p22-mackinac-pro, serif; 
     src: url("https://use.typekit.net/zmi1sct.css");
     font-weight: 800;
     font-style: normal;  
@@ -20,16 +20,17 @@
     opacity: 0;
     transform: scale(0);
     transition: 0.8s;
+    color: #FC8DBE;
 }
 .soho h2 {
     opacity: 0;
     transform: scale(0);
     transition: 0.8s;
-
+color: #FC8DBE;
 }
 
 .soho:hover {
-   box-shadow: 0 0 0 200px rgba(0,0,0,0.5) inset ;
+   box-shadow: 0 0 0 0px rgba(0,0,0,0.5) inset ;
 }
 .soho:hover h2{
     opacity: 1;
@@ -38,14 +39,14 @@
 }
 
 .soho:hover p{
-    opacity: 1;
+    opacity: 10;
     transform: scale(1);
     transition: 0.8s;
 }
 
 body{
     font-family:p22-mackinac-pro, serif; 
-   
+   height: 100vh;
     margin: 0%;
 }
 
@@ -338,6 +339,20 @@ footer h1{
   
   }
   
+ footer h2{
+  text-align: center
+ }
+
+  
+
+@import url("https://use.typekit.net/zmi1sct.css");
+
+@font-face {
+    font-family:p22-mackinac-pro, serif; ;
+    src: url("https://use.typekit.net/zmi1sct.css");
+    font-weight: 800;
+    font-style: normal;  
+}
   
   
 
@@ -354,7 +369,8 @@ footer h1{
         "upperwest"
         "chelsea"
         "right"
-        "couple";
+        "couple"
+        "footer";
       overflow: hidden;
       grid-gap: 0px;
       align-content: center;
