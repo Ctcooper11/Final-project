@@ -397,14 +397,14 @@ footer h1{
   } 
 
   @media(max-width:600px) {
-    .footer h1{
-    overflow: hidden;
+    h1.contact{
+   text-align: center;
     grid-gap: 0px;
     align-content: center;
-width:400px;
+width: 500px;
 font-size: 40px;
   }
-
+  
   }
 
 
