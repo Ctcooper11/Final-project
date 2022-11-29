@@ -141,13 +141,14 @@ body
 {
   margin: 0;
   padding: 0;
-  
-  /* make it look decent enough */
+  overflow: hidden;
   background:#EFD4B7;
   color: black;
   font-family:p22-mackinac-pro, serif;
   font-weight: 800 ;
 }
+
+
 
     .container {  display: grid;
     gap: 0px 0px;
@@ -270,6 +271,7 @@ body {
             width: 100vh;
             position: fixed;
             z-index: -1;
+            overflow: hidden;
           }
 
         .giftcard-img{
@@ -353,3 +355,29 @@ body {
         z-index: 10;
          }
  
+         @media(max-width:600px) {
+          .container {
+            display: grid;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "menuToggle"
+              "container"
+              "titles"
+              "beans"
+              "beans-img"
+              "grounds"
+              "grounds-img"
+              "merch"
+              "merch-img"
+              "gift-cards"
+              "gc-img"
+              "shop-right"
+              "main-right"
+              "right-b";
+            overflow: hidden;
+            grid-gap: 0px;
+          }
+
+       
+        }

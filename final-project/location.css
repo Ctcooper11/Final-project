@@ -30,12 +30,14 @@ color: #FC8DBE;
 }
 
 .soho:hover {
-   box-shadow: 0 0 0 0px rgba(0,0,0,0.5) inset ;
+   box-shadow: 0 0 0 200px rgba(0,0,0,0.5) inset ;
+   color: #FC8DBE;
 }
 .soho:hover h2{
     opacity: 1;
     transform: scale(1);
     transition: 0.8s;
+    color: #FC8DBE;
 }
 
 .soho:hover p{
@@ -62,8 +64,25 @@ h1 {
   }
   
   h1:hover {
-    color: #459DD1;
-    text-shadow:0px 0px 20px #8AD5FF;
+    color: white;
+    text-shadow:0px 0px 20px white;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+
+  .header H1{
+    font-weight: normal;
+    font-size: 40px;
+    color: black;
+    margin-left: 90px;
+    font-family:p22-mackinac-pro, serif; ;
+  }
+
+  header H1:hover {
+    color: #FC8DBE;
+    text-shadow:0px 0px 20px #FC8DBE;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
@@ -285,7 +304,7 @@ footer h1{
     font-style: normal;
     text-align: center;
     margin-right: 80px;
-    font-size: 50px;
+    font-size: 60px;
 }
 .hr-lines{
     position: relative;
@@ -333,17 +352,17 @@ footer h1{
   }
   
   section{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items:center;
-  
+    overflow: hidden;
+  width: unset;
   }
   
  footer h2{
   text-align: center
  }
 
-  
 
 @import url("https://use.typekit.net/zmi1sct.css");
 
@@ -377,6 +396,16 @@ footer h1{
     }
   } 
 
+  @media(max-width:600px) {
+    .footer h1{
+    overflow: hidden;
+    grid-gap: 0px;
+    align-content: center;
+width:400px;
+font-size: 40px;
+  }
+
+  }
 
 
   

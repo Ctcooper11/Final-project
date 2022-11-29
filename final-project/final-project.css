@@ -497,15 +497,6 @@ a {
 /* SHOP PAGE */
 
 
-@media screen (max-width:1200px){
-.headerlogo {
-  display:grid;
-  float:center;
-  max-width: 50vh;
-  display: center;
-}
-}
-
 @media(max-width:600px) {
   .container {
     display: grid;
@@ -518,6 +509,7 @@ a {
       "main-left"
       "main-right"
       "contact"
+      "footer"
       "footer2";
     overflow: hidden;
     grid-gap: 0px;
@@ -526,21 +518,16 @@ a {
 .Logo-img {
   height: 200px;
   width: 300px;
+  display: grid;
   float: center;
   align-items: center;
   display: grid;
+  margin: 0;
 }
 
 @media screen and (max-width: 600px) {
   .headerlogo {
-    width: 250px;
-    
-
-  }
-
-  .Logo-img {
-    width: 100%;
-    height: unset;
+    width: 300px;
   }
 }
 
@@ -610,40 +597,47 @@ display: grid;
     margin-left: 0
   }
 
-  .contact{
-    font-size: 45px;
+  .contact h1{
+    font-size: 15px;
   }
+}
 
+  
   .main-left{
-    height: 600px;
+   display: block;
     text-align: center;
-    float: center;
-    display: block;
+  width: 100%;
+  
   }
 
   .main-left h1 a{
-    font-size: 40px;
+   
     font-family: 'anti_design_endeavour_-_demRg';
     text-align: center;
     float: center;
     display: block;
   }
-
   .main-right{
-    height: 600px;
+width: 100%;
+overflow: hidden;
   }
   
   .main-right-text h1{
-    font-size: 40px;
-  margin-bottom: 30px;
+
   }
   .main-shop p a{
-    font-size: 60px;
+    font-size: 80px;
       font-family: 'anti_design_endeavour_-_demRg';
   }
-
+*/
   .foot2-gif{
     width: 100%;
+    overflow: hidden;
+  }
+
+  .contact h1{
+    width: 600px;
+    overflow: hidden;
   }
 
   .homeicon-img{
@@ -651,6 +645,7 @@ display: grid;
     display: block
   }
 }
+
   
   .const navLink document.querySelectorAll("nav-link");
 
@@ -678,4 +673,4 @@ display: grid;
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-    
+  

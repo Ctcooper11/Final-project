@@ -17,6 +17,10 @@
   font-family: 'Recoleta-Bold';
   src: url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
 }*/
+
+.header{
+  color: #EFD4B7;
+}
 #menuToggle
 {
   display: block;
@@ -227,13 +231,13 @@ h1 {
     }
     
   body{
-   
     margin: 0%;
     font-family:p22-mackinac-pro, serif; ;
 
   }
   .container {  display: grid;
  background-color: #EFD4B7;
+ overflow: hidden;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 0px 0px;
@@ -258,6 +262,13 @@ h1 {
   background-color: #EFD4B7;
   text-align: center;
   margin-left: 50px;
+  
+}
+
+.head-text h1{
+  position: relative;
+  display: block;
+  z-index: 10;
 }
 
   
@@ -319,37 +330,84 @@ background-color: #EFD4B7;
           "item4";
         overflow: hidden;
         grid-gap: 0px;
+        align-content: center;
       }
     } 
   
+    @media(max-width:600px) {
+    .head-text h1{
+      height: 0vh;
+      text-align: center;
+      position: absolute;
+      z-index: 12;
+    
+       }
+      }
+
     @media(max-width:600px) {
      
   .menu-items{
     display: grid;
     position:fixed;
-    
+    align-content: center;
+    margin-top: 50px;
+    align-items: center;
+    float: center;
+  }
+
+  .header{
+    color: #EFD4B7;
+ 
   }
  .head-text{
-  position:relative;
-  display:grid;
-  height: 10vh;
+  display:block;
+  height: 15vh;
   float: center;
- 
+  
  }
+
+ .head-text h1{
+ display:-ms-inline-grid;
+
+ }
+
+ .container h1{
+  position:absolute;
+  mask-position: grid;
+margin: -0;
+z-index: 15;
+ }
+
  .recycle{
   position:absolute;
   display:grid;
   height: 20vh;
-  margin-top: 50px;
+  margin-top: 40px;
+  z-index: 10;
+  align-content: center;
+
+    }
+
+    .contact{
+      font-size: 30px;
+      position: relative;
+      display: grid;
     }
   
     .item1{
       width: 100vh;
       float: center;
+      align-content: center;
+      display: grid;
+      align-items: center;
+      margin-top: 30px;
+ 
     }
     .item1 img{
       float: center;
- 
+      align-content: center;
     }
 
   }
+
+ 
