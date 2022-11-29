@@ -178,6 +178,9 @@ a:hover {
   display: grid;
 }
 
+.media-shop{
+  display: none;
+ }
 .topnav {
   overflow: hidden;
 width: 100%;
@@ -335,28 +338,36 @@ p.main-shop {
   font-size: 60px;
 }
 
+
 .foot1 {
   height: 30vh;
   background-color: #FFB4D4;
   display:grid;
   float: center;
-  
+  font-family: 'anti_design_endeavour_-_demRg';
 }
 
  h1.foot1 {
   grid-area: foot1;
   float: center;
-  overflow: hidden;
   font-family: 'anti_design_endeavour_-_demRg';
 text-align: center;
 font-size: 60px;
 background-color: #FFB4D4;
-margin-left: 200px;
-position: absolute;
 margin-bottom: 300px;
-display: grid;
+display: block;
 text-align: top;
+}
 
+h1.contact {
+  grid-area: foot1;
+  float: center;
+  font-family: 'anti_design_endeavour_-_demRg';
+text-align: center;
+font-size: 60px;
+margin-bottom: 300px;
+margin-right: 220px;
+text-align: center;
 }
 
 .foot2 {
@@ -513,23 +524,58 @@ a {
 
 
 @media(max-width:600px) {
+ 
   .container {
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-columns: auto;
     grid-template-areas:
       "header0"
       "header"
       "main"
       "main-left"
       "main-right"
+      "media-shop"
       "contact"
       "footer2";
     overflow: hidden;
     grid-gap: 0px;
+    display: block;
+  }
+  .main-right{
+    display: none;
 
   }
+  .main-right-text h1{
+    display: none;
+  text-align: center;
+  }
+  div.main-right {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  display: none;
+  width: 100%;
+  }
+  .media-shop{
+    display: grid;
+    text-align: center;
+    background-image:url(img/red-phone-notext.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    font-size: 60px;
+
 }
+.media-shop p{
+  display: grid;
+  font-size: 60px;
+  margin-top: 150px;
+  text-align: center;
+  font-family:p22-mackinac-pro, serif; ;
+}
+}
+
 .Logo-img {
   height: 200px;
   width: 300px;
@@ -591,11 +637,71 @@ a {
 
 @media screen and (max-width: 600px) {
   .main-right {
-    width: 600px;
-    display: block;
-  
- 
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    overflow: hidden;
   }
+  .main-right-text h1{
+    display: none;
+    overflow: hidden;
+    width: 50vh;
+    
+  }
+  .main-left{
+    display: block;
+     text-align: center;
+     height: 80vh;
+     background-repeat: no-repeat;
+     background-size: fit-content;
+     background-position: center center;
+
+
+
+   }
+   .main-left h1 a{
+     font-family: 'anti_design_endeavour_-_demRg';
+     text-align: center;
+     float: center;
+     display: block;
+   }
+ 
+   .main-shop p a{
+     font-size: 80px;
+       font-family: 'anti_design_endeavour_-_demRg';
+   }
+
+   .foot1{
+    display: block;
+    text-align: center;
+    align-content: center;
+   }
+   h1.contact{
+    text-align: center;
+     align-content: center;
+  font-size: 200px;
+   display: block;
+   position: absolute;
+   font-family: 'anti_design_endeavour_-_demRg';
+   }
+   h1.foot1{
+    text-align: center;
+     align-content: center;
+   display: block;
+   position: relative;
+   font-size: 60px;
+   font-family: 'anti_design_endeavour_-_demRg';
+   }
+
+   div.foot1{
+    display: block;
+    position:flex;
+    text-align: center;
+     align-content: center;
+     font-family: 'anti_design_endeavour_-_demRg';
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -615,25 +721,6 @@ a {
     display: block;
     text-align: left;
     margin: 0%;
-  }
-
-  .main-left{
-   display: block;
-    text-align: center;
-  width: 100%;
-  
-  }
-  .main-left h1 a{
-   
-    font-family: 'anti_design_endeavour_-_demRg';
-    text-align: center;
-    float: center;
-    display: block;
-  }
-
-  .main-shop p a{
-    font-size: 80px;
-      font-family: 'anti_design_endeavour_-_demRg';
   }
 
   .foot2-gif{
@@ -669,15 +756,4 @@ a {
       transform: translateY(-8px) rotate(-45deg);
     }
   
-}
-@media(max-width:600px) {
-  h1.contact{
- text-align: center;
-  grid-gap: 0px;
-  align-content: center;
-width: 500px;
-font-size: 40px;
-display: block;
-}
-
 }
