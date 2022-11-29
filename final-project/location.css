@@ -46,6 +46,94 @@ color: #FC8DBE;
     transition: 0.8s;
 }
 
+.midtown p {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  color: #FC8DBE;
+}
+.midtown h2 {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+color: #FC8DBE;
+}
+
+.midtown:hover {
+ box-shadow: 0 0 0 200px rgba(0,0,0,0.5) inset ;
+ color: #FC8DBE;
+}
+.midtown:hover h2{
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.8s;
+  color: #FC8DBE;
+}
+
+.midtown:hover p{
+  opacity: 10;
+  transform: scale(1);
+  transition: 0.8s;
+}
+.upperwest p {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  color: #FC8DBE;
+}
+.upperwest h2 {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+color: #FC8DBE;
+}
+
+.upperwest:hover {
+ box-shadow: 0 0 0 200px rgba(0,0,0,0.5) inset ;
+ color: #FC8DBE;
+}
+.upperwest:hover h2{
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.8s;
+  color: #FC8DBE;
+}
+
+.upperwest:hover p{
+  opacity: 10;
+  transform: scale(1);
+  transition: 0.8s;
+}
+.chelsea p {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  color: #FC8DBE;
+}
+.chelsea h2 {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+color: #FC8DBE;
+}
+
+.chelsea:hover {
+ box-shadow: 0 0 0 200px #FC8DBE(0,0,0,1) inset ;
+ color: #FC8DBE;
+}
+.chelsea:hover h2{
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.8s;
+  color: #FC8DBE;
+}
+
+.chelsea:hover p{
+  opacity: 10;
+  transform: scale(1);
+  transition: 0.8s;
+}
+
 body{
     font-family:p22-mackinac-pro, serif; 
    height: 100vh;
@@ -249,6 +337,7 @@ height: 50vh;
     background-size: cover;
     text-align: center;
 }
+
   
   .upperwest { grid-area: upperwest;
     background-image: url(img/upperwestside.png);
@@ -404,7 +493,17 @@ footer h1{
 width: 500px;
 font-size: 40px;
   }
-  
+  .couple{
+    display: block;
+    height: 40vh;
+  }
+  .right{
+    height: 60vh;
+  }
+  .midtown{
+   display: block;
+height: 60vh;
+  }
   }
 
 

@@ -350,9 +350,21 @@ body {
          p.gift-cards:hover + img{ 
         grid-area: product-img;
         grid-area: 1 / 2 / 6 / 3;
-        display: block;
-        position: absolute;
+      
         z-index: 10;
+        display: flex;
+        position: fixed;
+        bottom: 50%;
+        left: 20%;
+         }
+
+         /*
+           display: block;
+        position: absolute;
+        */
+
+         .media-shop{
+          display: none;
          }
  
          @media(max-width:600px) {
@@ -377,7 +389,51 @@ body {
               "right-b";
             overflow: hidden;
             grid-gap: 0px;
+            display: block;
           }
-
        
         }
+        @media(max-width:600px) {
+          .media-shop{
+            display: grid;
+            text-align: center;
+            margin-left: 20px;
+        }
+        
+        .titles{
+          display: none;
+        }
+    
+        .shop-right{
+    
+          display: block;
+          background-image: url("img/checkbackground-img.PNG");
+          background-repeat:repeat;
+          background-position: center center;
+          background-size:cover;
+          margin-top: 120px;
+          height: 70vh;
+
+        }
+        .right-b{
+      display: none;
+        }
+
+        .beans-img{ 
+          z-index: 10;
+          grid-area: 1 / 1 / 6 / 3;
+          float: left;
+          display: left;
+          margin-top: 120px;
+          display: none;
+          position: absolute;
+      }
+
+      p.beans:hover + img{ 
+        grid-area: shop-right;
+      display: block;
+      position: absolute;
+      z-index: 10;
+      grid-area: 1 / 1 / 6 / 3;
+       }
+      }
