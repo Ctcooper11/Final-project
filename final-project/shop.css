@@ -381,9 +381,9 @@ body {
             margin-left: 400px;
             display: none;
             position: relative;
-            width: 60vh;
-            height: 60vh;
-            right: 5%;
+            width: 80vh;
+            height: 80vh;
+            right: 10%;
         }
          
          p.gift-cards:hover + img{ 
@@ -407,6 +407,7 @@ body {
          .g-img{
           display: none;
           width: 80vh;
+
          }
  
          @media(max-width:600px) {
