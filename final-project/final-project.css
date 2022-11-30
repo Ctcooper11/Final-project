@@ -340,23 +340,13 @@ p.main-shop {
 
 
 .foot1 {
-  height: 30vh;
+  height: 35vh;
   background-color: #FFB4D4;
   display:grid;
   float: center;
+  position: relative;
   font-family: 'anti_design_endeavour_-_demRg';
-}
 
- h1.foot1 {
-  grid-area: foot1;
-  float: center;
-  font-family: 'anti_design_endeavour_-_demRg';
-text-align: center;
-font-size: 60px;
-background-color: #FFB4D4;
-margin-bottom: 300px;
-display: block;
-text-align: top;
 }
 
 h1.contact {
@@ -365,10 +355,14 @@ h1.contact {
   font-family: 'anti_design_endeavour_-_demRg';
 text-align: center;
 font-size: 60px;
-margin-bottom: 300px;
-margin-right: 220px;
+margin-right: 180px;
+margin-bottom: 800px;
 text-align: center;
+position: relative;
+display: block;
+padding-bottom: 40vh;
 }
+
 
 .foot2 {
   background-image: url(img/checkbackground-img.PNG);
@@ -520,6 +514,13 @@ a {
   color: black;
 }
 
+.pink{
+margin-right: 30px;
+background-color: #FFB4D4;
+  font-family: 'anti_design_endeavour_-_demRg';
+  width:100vh;
+  display: none;
+}
 /* MEDIA */
 
 
@@ -536,6 +537,7 @@ a {
       "main-right"
       "media-shop"
       "contact"
+      "pink"
       "footer2";
     overflow: hidden;
     grid-gap: 0px;
@@ -657,7 +659,7 @@ a {
      background-repeat: no-repeat;
      background-size: fit-content;
      background-position: center center;
-
+    width: 500px;
 
 
    }
@@ -666,7 +668,9 @@ a {
      text-align: center;
      float: center;
      display: block;
+     margin-left: 25px;
    }
+  
  
    .main-shop p a{
      font-size: 80px;
@@ -677,31 +681,33 @@ a {
     display: block;
     text-align: center;
     align-content: center;
+    overflow: hidden;
    }
    h1.contact{
-    text-align: center;
-     align-content: center;
-  font-size: 200px;
-   display: block;
+    text-align: left;
+  float: left;
+  overflow: hidden;
+   display: none;
    position: absolute;
    font-family: 'anti_design_endeavour_-_demRg';
    }
-   h1.foot1{
-    text-align: center;
-     align-content: center;
-   display: block;
-   position: relative;
-   font-size: 60px;
-   font-family: 'anti_design_endeavour_-_demRg';
-   }
+ .pink{
+  display: block;
+  background-color: #FFB4D4;
+  height: 40vh;
+  font-size: 40px;
+  text-align: center;
+  width: 500px;
+  float: left;
+overflow: hidden;
+ }
 
-   div.foot1{
-    display: block;
-    position:flex;
-    text-align: center;
-     align-content: center;
-     font-family: 'anti_design_endeavour_-_demRg';
-   }
+ h1.pink{
+  margin-left: 50px;
+ margin-right: 100px; ;
+ padding-right: 80px;
+ }
+
 }
 
 @media screen and (max-width: 600px) {
