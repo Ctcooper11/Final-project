@@ -276,10 +276,9 @@ h1 {
   
   .recycle { grid-area: recycle; 
 background-color: #EFD4B7;
- margin-left: 150px;
+ margin-left: 120px;
  height: 20vh;
  width: 10vh;
-
   }
   
   .item1 { grid-area: item1; 
