@@ -279,7 +279,7 @@ body {
             width: 100vh;
             float: center;
             z-index: 10;
-            position: fixed;
+            position: absolute;
             right: 30%;
         }
 
