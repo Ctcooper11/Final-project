@@ -374,6 +374,7 @@ body {
             position: absolute;
             height: 70vh;
             width: 70vh;
+            right: 5%;
         }
          
          p.gift-cards:hover + img{ 
