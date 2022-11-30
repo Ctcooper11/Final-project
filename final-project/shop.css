@@ -561,7 +561,9 @@ height: 40vh;
  
       }
 .g-img{
-
+display: none;
+height: 70vh;
+width: 70vh;
 }
 
       p.gift-card:hover + .g-img{ 
