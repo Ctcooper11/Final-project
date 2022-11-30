@@ -575,7 +575,7 @@ h1.pink{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
     font-size: 60px;
 
 }
@@ -584,9 +584,7 @@ h1.pink{
   font-size: 60px;
   margin-top: 150px;
   text-align: center;
-  font-family:p22-mackinac-pro, serif; ;
-}
-
+  font-family:p22-mackinac-pro, serif; 
 }
 
 .Logo-img {
