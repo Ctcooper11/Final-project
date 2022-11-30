@@ -351,6 +351,7 @@ p.main-shop {
 
 h1.contact {
   float: center;
+  grid-area: foot1;
   font-family: 'anti_design_endeavour_-_demRg';
 text-align: center;
 font-size: 60px;
