@@ -553,10 +553,8 @@ body {
       
       }
 .g-img{
- width: 70vh;
- height: 70vh;
-  
-  
+ width: fit-content;
+ height: fit-content;
 }
 
       p.gift-card:hover + .g-img{ 
