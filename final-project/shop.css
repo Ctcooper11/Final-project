@@ -386,6 +386,10 @@ body {
          .media-shop{
           display: none;
          }
+
+         .g-img{
+          display: none;
+         }
  
          @media(max-width:600px) {
           .container {
@@ -471,12 +475,12 @@ right:0mm;
       display: block;
       position: absolute;
       z-index: 10;
-      grid-area: 1 / 1 / 6 / 3;
+  
        }
 
        .grounds-img{
         z-index: 10;
-        grid-area: 1 / 1 / 6 / 3;
+      
         float: center;
         margin-top: 120px;
         margin-right: 30px;
@@ -536,6 +540,33 @@ right:0mm;
  
        }
 
+       p.gift-card {
+        z-index: 2;
+        display:flex;
+        position: fixed;
+        top: 80%;
+        text-align: center;
+        overflow: hidden;
+        z-index: 0;
+        left: 50%;
+      }
+
+      .gc-img{
+        display: none;
+      
+      }
+.g-img{
+  width: 70vh;
+  margin-right: 50px;
+  padding-right: 5%;
+}
+
+      p.gift-card:hover + .g-img{ 
+        grid-area: shop-right;
+      display: block;
+      position: absolute;
+ 
+       }
              p:hover {
             color: darkred;
             text-shadow:0px 0px 20px palevioletred;
