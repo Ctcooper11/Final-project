@@ -16,127 +16,8 @@
     font-style: normal;
 }
 
-.soho p {
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    color: #FC8DBE;
-    font-size: 30px;
-}
-.soho h2 {
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-color: #FC8DBE;
-}
 
-.soho:hover {
-   box-shadow: 0 0 0 200px rgba(0,0,0,1) inset ;
-   color: #FC8DBE;
-}
-.soho:hover h2{
-    opacity: 1;
-    transform: scale(1);
-    transition: 0.8s;
-    color: #FC8DBE;
-}
 
-.soho:hover p{
-    opacity: 10;
-    transform: scale(1);
-    transition: 0.8s;
-}
-
-.midtown p {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8s;
-  color: #FC8DBE;
-  font-size: 30px;
-}
-.midtown h2 {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8s;
-color: #FC8DBE;
-}
-
-.midtown:hover {
- box-shadow: 0 0 0 200px rgba(0,0,0,1) inset ;
- color: #FC8DBE;
-}
-.midtown:hover h2{
-  opacity: 1;
-  transform: scale(1);
-  transition: 0.8s;
-  color: #FC8DBE;
-}
-
-.midtown:hover p{
-  opacity: 10;
-  transform: scale(1);
-  transition: 0.8s;
-}
-.upperwest p {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8s;
-  color: #FC8DBE;
-  font-size: 30px;
-}
-.upperwest h2 {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8s;
-color: #FC8DBE;
-}
-
-.upperwest:hover {
- box-shadow: 0 0 0 200px rgba(0,0,0,1) inset ;
- color: #FC8DBE;
-}
-.upperwest:hover h2{
-  opacity: 1;
-  transform: scale(1);
-  transition: 0.8s;
-  color: #FC8DBE;
-}
-
-.upperwest:hover p{
-  opacity: 10;
-  transform: scale(1);
-  transition: 0.8s;
-}
-.chelsea p {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8s;
-  color: #FC8DBE;
-  font-size: 30px;
-}
-.chelsea h2 {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8s;
-color: #FC8DBE;
-}
-
-.chelsea:hover {
- box-shadow: 0 0 0 200px rgba(0,0,0,1) inset ;
- color: #FC8DBE;
-}
-.chelsea:hover h2{
-  opacity: 1;
-  transform: scale(1);
-  transition: 0.8s;
-  color: #FC8DBE;
-}
-
-.chelsea:hover p{
-  opacity: 10;
-  transform: scale(1);
-  transition: 0.8s;
-}
 
 body{
     font-family:p22-mackinac-pro, serif; 
@@ -385,7 +266,6 @@ height: 50vh;
 footer{
     background-color:#FC8DBE;
 margin-bottom: 100px;
-height: 100vh;
 }
 
 footer h1{
