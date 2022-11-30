@@ -467,6 +467,8 @@ body {
         display: none;
         position: flex;
       align-items: center;
+      width: 80vh;
+   
 
       }
       p.beanss:hover + img{ 
@@ -481,6 +483,7 @@ body {
         float: center;
         display: none;
         position: absolute;
+        margin-right: 60px;
        }
 
        p.groundss {
@@ -503,10 +506,9 @@ body {
 
 
       p.groundss:hover + img{ 
-        grid-area: shop-right;
       display: block;
       position: absolute;
-    z-index: 15;
+  
        }
 
        p.merchs {
@@ -551,10 +553,11 @@ body {
       
       }
 .g-img{
-  width: 70vh;
+  height: 70vh;
   margin-right: 50px;
   padding-right: 5%;
   display: none;
+  
 }
 
       p.gift-card:hover + .g-img{ 
