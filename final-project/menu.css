@@ -233,7 +233,10 @@ h1 {
   body{
     margin: 0%;
     font-family:p22-mackinac-pro, serif; ;
-
+    background-image:url(img/bigcheck.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background: size 40px;%;
   }
   .container {  display: grid;
  background-color: #EFD4B7;
@@ -305,6 +308,7 @@ background-color: #EFD4B7;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+ 
   }
   
   .item4 { grid-area: item4; 
@@ -315,7 +319,23 @@ background-color: #EFD4B7;
 
   }
   
+  .mobilemenu{
+    display: none;
+  }
+  .coldmobile{
+    display: none;
+  }
+  .lattemobile{
+    display: none;
+  }
 
+  .macmobile{
+    display: none;
+  }
+
+  .icedmobile{
+    display: none;
+  }
     @media(max-width:600px) {
       .container {
         display: grid;
@@ -363,7 +383,7 @@ background-color: #EFD4B7;
   display:block;
   height: 15vh;
   float: center;
-  
+
  }
 
  .head-text h1{
@@ -385,7 +405,6 @@ z-index: 15;
   margin-top: 40px;
   z-index: 10;
   align-content: center;
-
     }
 
     .contact{
@@ -401,13 +420,71 @@ z-index: 15;
       display: grid;
       align-items: center;
       margin-top: 30px;
+      display: none;
     
     }
+
+    .coldmobile{
+        width: 100vh;
+        float: center;
+        align-content: center;
+        display: grid;
+        align-items: center;
+        background-image: url(img/checkbackground-img.PNG);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+    
+      .icedmobile{
+        width: 100vh;
+        float: center;
+        align-content: center;
+        display: grid;
+        align-items: center;
+        background-image: url(img/checkbackground-img.PNG);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+      .macmobile{
+        width: 100vh;
+        float: center;
+        align-content: center;
+        display: grid;
+        align-items: center;
+        background-image: url(img/checkbackground-img.PNG);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+      .lattemobile{
+        width: 100vh;
+        float: center;
+        align-content: center;
+        display: grid;
+        align-items: center;
+        background-image: url(img/checkbackground-img.PNG);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
     .item1 img{
       float: center;
       align-content: center;
+      display: none;
+    }
+  
+    .item2{
+      display: none;
+    }
+    .item3{
+      display: none;
+    }
+    .item4{
+      display: none;
     }
 
-  }
+    }
 
  
