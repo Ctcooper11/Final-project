@@ -379,8 +379,9 @@ body {
             grid-area: 1 / 2 / 6 / 3;
             margin-left: 400px;
             display: none;
-            position: absolute;
-            width: 80vh;
+            position: relative;
+            width: 60vh;
+            height: 60vh;
             right: 5%;
         }
          
