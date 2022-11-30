@@ -320,7 +320,8 @@ body {
             margin-bottom: 120px;
             display: none;
             position: relative;
-        
+          width: 60vh;
+          height: 80vh;
         
         }
 
