@@ -380,10 +380,10 @@ body {
             grid-area: 1 / 2 / 6 / 3;
             margin-left: 400px;
             display: none;
-            position: relative;
-            width: 80vh;
-            height: 80vh;
-            right: 10%;
+            position: absolute;
+            width: 95vh;
+            height: 95vh;
+           
         }
          
          p.gift-cards:hover + img{ 
