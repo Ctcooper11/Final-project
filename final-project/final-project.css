@@ -525,7 +525,12 @@ h1.pink{
   display: none;
 }
 
-
+.leftm{
+  display:none;
+}
+.mshop{
+  display: none;
+}
 /* MEDIA */
 
 
