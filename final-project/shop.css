@@ -291,14 +291,14 @@ body {
             grid-area: 1 / 2 / 6 / 3;
             float: left;
             display: left;
-            margin-left: 420px;
-            margin-top: 120px;
+            margin-left: 480px;
+            margin-top: 80px;
             display: none;
             position: absolute;
             height: fit-content;
             width:fit-content;
-            width: 90vh;
-            height: 80vh;
+            width: 80vh;
+            height: 65vh;
         }
 
         .beanss{
