@@ -467,8 +467,7 @@ body {
         display: none;
         position: flex;
       align-items: center;
-      width: 80vh;
-   height: 60vh;
+ 
 
       }
       p.beanss:hover + img{ 
@@ -499,8 +498,6 @@ body {
 
       .groundss-img{
         display: none;
-        margin: 50px;
-        bottom: 10%;
         height: 70vh;
       }
 
