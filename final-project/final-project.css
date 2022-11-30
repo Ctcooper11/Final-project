@@ -733,8 +733,6 @@ h1.pink{
     text-align: center;
     align-content: center;
     overflow: hidden;
-    width: 600px;
-    width: 80vh;
    }
    h1.contact{
     text-align: center;
@@ -742,8 +740,8 @@ h1.pink{
   overflow: hidden;
    display: block;
    font-family: 'anti_design_endeavour_-_demRg';
- 
    width: 600px;
+  right: 18%;
    }
  .pink{
   display: none;
