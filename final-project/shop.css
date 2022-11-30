@@ -295,8 +295,7 @@ body {
             margin-top: 80px;
             display: none;
             position: absolute;
-            height: fit-content;
-            width:fit-content;
+         
             width: 90vh;
             height: 60vh;
         }
