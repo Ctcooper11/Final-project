@@ -472,10 +472,10 @@ body {
 
       .beanss-img{
         display: none;
-        position: flex;
+        position: fixed;
       align-items: center;
-      
-
+      width: 60vh;
+height: 40vh;
       }
       p.beanss:hover + img{ 
         grid-area: shop-right;
@@ -561,8 +561,7 @@ body {
  
       }
 .g-img{
- height: 70vh;
-width: 70vh;
+
 }
 
       p.gift-card:hover + .g-img{ 
