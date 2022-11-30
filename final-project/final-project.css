@@ -340,7 +340,7 @@ p.main-shop {
 
 
 .foot1 {
-  height: 40vh;
+  height: 30vh;
   background-color: #FFB4D4;
   display:grid;
   float: center;
@@ -349,18 +349,20 @@ p.main-shop {
 
 }
 
+h1.foot1{
+margin-bottom: 200px;
+}
 h1.contact {
-  grid-area: foot1;
   float: center;
   font-family: 'anti_design_endeavour_-_demRg';
 text-align: center;
 font-size: 60px;
 margin-right: 180px;
-margin-bottom: 400px;
+margin-bottom: 200px;
 text-align: center;
-position: relative;
+position:static;
 display: block;
-padding-bottom: 40vh;
+padding-bottom: 20vh;
 }
 
 
@@ -521,8 +523,7 @@ background-color: #FFB4D4;
   width:100vh;
   display: none;
 }
-
-h1.pink{
+.pink h1{
   display: none;
 }
 /* MEDIA */
