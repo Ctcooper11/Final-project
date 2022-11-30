@@ -340,7 +340,7 @@ p.main-shop {
 
 
 .foot1 {
-  height: 35vh;
+  height: 40vh;
   background-color: #FFB4D4;
   display:grid;
   float: center;
@@ -356,7 +356,7 @@ h1.contact {
 text-align: center;
 font-size: 60px;
 margin-right: 180px;
-margin-bottom: 800px;
+margin-bottom: 400px;
 text-align: center;
 position: relative;
 display: block;
@@ -519,6 +519,10 @@ margin-right: 30px;
 background-color: #FFB4D4;
   font-family: 'anti_design_endeavour_-_demRg';
   width:100vh;
+  display: none;
+}
+
+h1.pink{
   display: none;
 }
 /* MEDIA */
