@@ -378,10 +378,11 @@ body {
             z-index: 10;
             grid-area: product-img;
             grid-area: 1 / 2 / 6 / 3;
-            margin-left: 400px;
+            margin-left: 300px;
             display: none;
             position: absolute;
             height: 95vh;
+            width: 100vh;
            
         }
          
