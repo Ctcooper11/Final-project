@@ -13,7 +13,10 @@ body {
   margin: 0;
 text-align: center;
   height: 100vh;
+  background-image: none;
 }
+
+
 .bar1,
 .bar2,
 .bar3 {
@@ -419,6 +422,11 @@ a {
 .navbar a{
   font-family:p22-mackinac-pro, serif; ;
 
+}
+
+*body{
+  background-color: white;
+  background-image: none;
 }
 
 .hamburger {

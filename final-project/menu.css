@@ -197,7 +197,6 @@ h1 {
       justify-content: space-between;
       font-size: 50px;
       z-index: 1;
-      margin-left: 20px;
     }
     
     .hamburger {
@@ -233,7 +232,7 @@ h1 {
   body{
     margin: 0%;
     font-family:p22-mackinac-pro, serif; ;
-
+    background-image:url(img/bigcheck.png);
     background-repeat: repeat;
     background-position: center center;
   }
