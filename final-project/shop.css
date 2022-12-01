@@ -300,13 +300,13 @@ body {
             grid-area: 1 / 2 / 6 / 3;
             float: left;
             display: left;
-            margin-left: 420px;
+            margin-left: 300px;
             margin-top: 80px;
             display: none;
             position: absolute;
-         
-            width: 90vh;
-            height: 60vh;
+         width: 100vh;
+         bottom: 10%;
+        
         }
 
         .beanss{
@@ -381,7 +381,6 @@ body {
             margin-left: 400px;
             display: none;
             position: absolute;
-       
             height: 95vh;
            
         }
