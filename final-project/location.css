@@ -378,7 +378,9 @@ text-align: start;
       overflow: hidden;
       grid-gap: 0px;
       align-content: center;
+      width: 100vh;
     }
+    
   } 
 
   @media(max-width:600px) {
@@ -386,7 +388,7 @@ text-align: start;
    text-align: center;
     grid-gap: 0px;
     align-content: center;
-width: 500px;
+
 font-size: 40px;
   }
   .couple{
@@ -394,11 +396,11 @@ font-size: 40px;
     height: 40vh;
   }
   .right{
-    height: 60vh;
+    height: 100vh;
   }
   .midtown{
    display: block;
-height: 60vh;
+height: 100vh;
   }
 
   .hr-lines:after{
