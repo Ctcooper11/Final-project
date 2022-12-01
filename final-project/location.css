@@ -15,10 +15,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
-
-
 body{
     font-family:p22-mackinac-pro, serif; 
    height: 100vh;
@@ -206,17 +202,17 @@ height: 50vh;
   }
   
   .soho { grid-area: soho;
-    background-image: url(img/soho2.png);
+    background-image: url(img/so.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     text-align: center;
-    height: 55vh;
+    height: 60vh;
 
 }
   
   .midtown { grid-area: midtown; 
-    background-image: url(img/upperwestside.png);
+    background-image: url(img/mid.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -225,17 +221,17 @@ height: 50vh;
 
   
   .upperwest { grid-area: upperwest;
-    background-image: url(img/upperwestside.png);
+    background-image: url(img/ups.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     text-align: center;
-    height: 55vh;
+    height: 60vh;
  
 }
   
   .chelsea { grid-area: chelsea; 
-    background-image: url(img/midtown2.png);
+    background-image: url(img/chel.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -266,6 +262,9 @@ height: 50vh;
 footer{
     background-color:#FC8DBE;
 margin-bottom: 100px;
+margin: 0;
+display: block;
+position: absolute;
 }
 
 footer h1{
@@ -279,6 +278,7 @@ footer h1{
     text-align: center;
     margin-right: 80px;
     font-size: 60px;
+    color: white;
 }
 .hr-lines{
     position: relative;
