@@ -265,7 +265,7 @@ margin-bottom: 100px;
 margin: 0;
 display: block;
 position: absolute;
-width: 100%;
+
 
 }
 
@@ -378,7 +378,7 @@ text-align: start;
       overflow: hidden;
       grid-gap: 0px;
       align-content: center;
-      width: 100vh;
+      
     }
     
   } 
@@ -396,11 +396,11 @@ font-size: 40px;
     height: 40vh;
   }
   .right{
-    height: 100vh;
+    height: 60vh;
   }
   .midtown{
    display: block;
-height: 100vh;
+height: 60vh;
   }
 
   .hr-lines:after{
@@ -410,8 +410,7 @@ height: 100vh;
   .hr-lines{
     left: 15%;
   }
-
-}
+  }
 
 
   
