@@ -280,23 +280,23 @@ footer h1{
     font-size: 60px;
     color: white;
 }
+
 .hr-lines{
     position: relative;
     max-width: 500px;
     margin: 100px auto;
-    text-align: center;
     display: grid;
   }
   
   .hr-lines:after{
     content:" ";
     height: 2px;
-    width: 130px;
+    width: 400px;
     background: black;
     display: grid;
     position: absolute;
     top: 50%;
-    left: 320px;
+    left: 30%;
     
   }
   .hr-lines2{
@@ -319,6 +319,10 @@ footer h1{
    
     margin-right: 0px;
   }
+
+  h2 .hr-lines{
+    text-align: start;
+  }
   
   p{
   
@@ -333,10 +337,13 @@ footer h1{
   width: unset;
   }
   
- footer h2{
+ footer h1{
   text-align: center
  }
 
+ footer h2{
+text-align: start;
+ }
 
 @import url("https://use.typekit.net/zmi1sct.css");
 
