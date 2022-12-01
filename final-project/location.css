@@ -202,7 +202,7 @@ height: 50vh;
   }
   
   .soho { grid-area: soho;
-    background-image: url(img/so.png);
+    background-image: url(img/so.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -221,7 +221,7 @@ height: 50vh;
 
   
   .upperwest { grid-area: upperwest;
-    background-image: url(img/ups.png);
+    background-image: url(img/uws.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
