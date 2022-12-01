@@ -265,6 +265,8 @@ margin-bottom: 100px;
 margin: 0;
 display: block;
 position: absolute;
+
+
 }
 
 footer h1{
@@ -338,7 +340,8 @@ footer h1{
   }
   
  footer h1{
-  text-align: center
+  text-align: center;
+  width: 180vh;
  }
 
  footer h2{
