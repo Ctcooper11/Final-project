@@ -82,6 +82,7 @@ h1:hover {
   float: center;
   text-align: center;
   color: black
+
 }
 
 .shop-button {
@@ -156,8 +157,8 @@ a:hover {
 .Logo-img {
   float: center;
   align-items: center;
-  width: 100%;
-  height: unset;
+  width: 90%;
+  height: 30vh;
   display: grid;
   grid-area: headerlogo;
 }
@@ -188,6 +189,7 @@ a:hover {
   overflow: hidden;
 width: 100%;
   height: 10vh;
+
 }
 
 .topnav a {
@@ -828,4 +830,5 @@ overflow: hidden;
       transform: translateY(-8px) rotate(-45deg);
     }
   
+  }
 }
